@@ -1,11 +1,16 @@
+; reload by M-x load-file
+
 ; look for .el files in .emacs.d
 (add-to-list 'load-path "~/.emacs.d")
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 
 ; load auxiliaries
 (load "funcs")
-(load "matlab-emacs/matlab-load")
 (load "python-mode")
+
+; matlab
+(add-to-list 'load-path "~/.emacs.d/matlab-emacs")
+(load-library "matlab-load")
 
 ; backups
 (setq backup-directory-alist `(("." . "~/.saves")))
