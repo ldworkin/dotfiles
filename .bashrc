@@ -5,10 +5,6 @@ B='\[\e[00;36m\]'
 R='\[\e[00;35m\]'
 G='\[\e[00;32m\]'
 export PS1="${B}\u${N}@${G}\h${N}:${R}\w${N}\$ "
-export AWS_ACCESS_KEY_ID=AKIAINM5YSST4VORXHXQ
-export AWS_SECRET_ACCESS_KEY=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
-export AWS_DEFAULT_REGION=us-west-2
-export EDITOR=~/.emacs.d/edit
 
 function cd() { 
 	builtin cd "$@" && ls; 
