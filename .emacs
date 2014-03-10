@@ -8,12 +8,20 @@
 (load "funcs")
 (load "python-mode")
 
+; pbcopy
+(require 'pbcopy)
+(turn-on-pbcopy)
+
 ; matlab
 (add-to-list 'load-path "~/.emacs.d/matlab-emacs")
 (load-library "matlab-load")
 
 ; backups
-(setq backup-directory-alist `(("." . "~/.saves")))
+(defvar backup-dir (expand-file-name "~/.emacs.d/backups/"))
+(defvar autosave-dir (expand-file-name "~/.emacs.d/autosaves/"))
+(setq backup-directory-alist (list (cons ".*" backup-dir)))
+(setq auto-save-list-file-prefix autosave-dir)
+(setq auto-save-file-name-transforms `((".*" ,autosave-dir t)))
 
 ; marmalade
 (require 'package)
@@ -31,6 +39,7 @@
 ; highlight 80 
 (add-to-list 'load-path "~/.emacs.d/elpa/highlight-80+")
 (require 'highlight-80+)
+; M-x highlight-80+-mode
 
 ; font
 (set-face-attribute 'default nil
