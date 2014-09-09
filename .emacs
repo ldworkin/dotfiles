@@ -2,10 +2,14 @@
 
 ; look for .el files in .emacs.d
 (add-to-list 'load-path "~/.emacs.d")
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 
-; load auxiliaries
-(load "funcs")
+; 'uniquify' multiple buffers with the same name
+(require 'uniquify) 
+(setq 
+  uniquify-buffer-name-style 'post-forward
+  uniquify-separator ":")
+
+; python
 (load "python-mode")
 
 ; pbcopy
@@ -74,7 +78,7 @@ inhibit-startup-echo-area-message t)
 ; remap interactive find/replace
 (global-set-key (kbd "M-s") 'query-replace)
 
-; python
+; more python
 (setq comint-process-echoes t)
 (setq comint-scroll-to-bottom-on-output t)
 
@@ -86,15 +90,28 @@ inhibit-startup-echo-area-message t)
 (setq-default scroll-up-aggressively 0.01
       scroll-down-aggressively 0.01)
 
+; open LaTex in preview
 (eval-after-load "tex"
   '(add-to-list 'TeX-command-list '("View" "open %s.pdf" TeX-run-command t t)))
 
-(setq ispell-program-name "aspell"
-      ispell-dictionary "english"
-      ispell-dictionary-alist
-      (let ((default '("[A-Za-z]" "[^A-Za-z]" "[']" nil
-                       ("-B" "-d" "english" "--dict-dir"
-                        "/Library/Application Support/cocoAspell/aspell6-en-6.0-0")
-                       nil iso-8859-1)))
-        `((nil ,@default)
-          ("english" ,@default))))
+; set default master files
+(setq-default TeX-master nil)
+
+; spell check
+(setq ispell-program-name "ispell")
+
+; source: http://steve.yegge.googlepages.com/my-dot-emacs-file
+(defun rename-file-and-buffer (new-name)
+  "Renames both current buffer and file it's visiting to NEW-NAME."
+  (interactive "sNew name: ")
+  (let ((name (buffer-name))
+        (filename (buffer-file-name)))
+    (if (not filename)
+        (message "Buffer '%s' is not visiting a file!" name)
+      (if (get-buffer new-name)
+          (message "A buffer named '%s' already exists!" new-name)
+        (progn
+          (rename-file name new-name 1)
+          (rename-buffer new-name)
+          (set-visited-file-name new-name)
+          (set-buffer-modified-p nil))))))
