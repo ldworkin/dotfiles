@@ -1,7 +1,7 @@
 ; reload by M-x load-file
 
 ; look for .el files in .emacs.d
-(add-to-list 'load-path "~/.emacs.d")
+(add-to-list 'load-path "~/.emacs.d/files")
 
 ; 'uniquify' multiple buffers with the same name
 (require 'uniquify) 
@@ -27,23 +27,11 @@
 (setq auto-save-list-file-prefix autosave-dir)
 (setq auto-save-file-name-transforms `((".*" ,autosave-dir t)))
 
-; marmalade
-(require 'package)
-(add-to-list 'package-archives 
-    '("marmalade" .
-      "http://marmalade-repo.org/packages/"))
-(package-initialize)
-
 ; yasnippet
 (add-to-list 'load-path "~/.emacs.d/elpa/yasnippet-0.8.0")
 (setq yas-snippet-dirs "~/.emacs.d/elpa/yasnippet-0.8.0")
 (require 'yasnippet)
 (yas-global-mode 1)
-
-; highlight 80 
-(add-to-list 'load-path "~/.emacs.d/elpa/highlight-80+")
-(require 'highlight-80+)
-; M-x highlight-80+-mode
 
 ; font
 (set-face-attribute 'default nil

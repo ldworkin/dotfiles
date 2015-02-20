@@ -2,16 +2,9 @@ if [ -f ~/.bashrc ]; then
    source ~/.bashrc
 fi
 
-export PATH=$PATH
-export PATH=$HOME/bin:$PATH
-export PATH=/usr/bin:$PATH
+# http://hackercodex.com/guide/mac-osx-mavericks-10.9-configuration/
 export PATH=/usr/local/bin:$PATH
-export PATH=/usr/local/sbin:$PATH
-export PATH=/usr/local/heroku/bin:$PATH
-export PATH=/usr/local/texlive/2013:$PATH
-export PATH=/Applications/MATLAB_R2012a_Student.app/bin:$PATH
-export PATH=/Library/PostgreSQL/9.3/bin:$PATH
-export PYTHONPATH="/usr/local/lib/python2.7/site-packages/:$PYTHONPATH"
-export JAVA_HOME="/System/Library/Frameworks/JavaVM.framework/Home"
-export MTURK_CMD_HOME="~/Dropbox/networks"
+export ARCHFLAGS="-arch x86_64"
+export PIP_REQUIRE_VIRTUALENV=true
+
 

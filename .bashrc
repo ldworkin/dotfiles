@@ -13,16 +13,11 @@ function cd() {
 }
 
 # https://github.com/rupa/z
-. ~/.files/z.sh
+. ~/z.sh
 
 # aliases
 alias emacs="emacs -nw"
 alias Emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
 alias kearns='ssh -X ldworkin@kearnsgroup.cis.upenn.edu'
 alias plat='ssh -X ldworkin@plat.cis.upenn.edu'
-alias cis192='ssh cis192@eniac.seas.upenn.edu'
-alias trading='cd ~/Desktop/trading; ssh -i lili.pem ldworkin@54.85.167.232'
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-export PATH="/usr/local/octave/3.8.0/bin:$PATH"
