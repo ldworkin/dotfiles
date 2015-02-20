@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-# name: lstlisting
-# key: 
-# binding: direct-keybinding
-# --
-\begin{lstlisting}
-$1
-\end{lstlisting}
