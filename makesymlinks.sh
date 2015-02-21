@@ -24,3 +24,7 @@ for file in $files; do
     echo "Creating symlink to $file in home directory."
     ln -s $dir/.$file ~/.$file
 done
+
+# downloading z.sh
+cd ~
+wget https://raw.githubusercontent.com/rupa/z/master/z.sh
