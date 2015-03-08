@@ -12,6 +12,10 @@ function cd() {
 	builtin cd "$@" && ls; 
 }
 
+gpip(){
+   PIP_REQUIRE_VIRTUALENV="" pip "$@"
+}
+
 # https://github.com/rupa/z
 . ~/z.sh
 
