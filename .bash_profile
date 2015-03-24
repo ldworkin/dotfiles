@@ -4,6 +4,7 @@ fi
 
 # http://hackercodex.com/guide/mac-osx-mavericks-10.9-configuration/
 export PATH=/usr/local/bin:$PATH
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
 export ARCHFLAGS="-arch x86_64"
 export PIP_REQUIRE_VIRTUALENV=true
 
