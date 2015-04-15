@@ -7,6 +7,6 @@ export PATH=/usr/local/bin:$PATH
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
 export ARCHFLAGS="-arch x86_64"
 export PIP_REQUIRE_VIRTUALENV=true
-export CASTRO_DATA_DIR=/home/me/screencasts 
+export CASTRO_DATA_DIR=~/Dropbox/NetworksData/castro-movies
 
 
