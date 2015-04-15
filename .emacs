@@ -86,6 +86,7 @@ inhibit-startup-echo-area-message t)
 (setq-default TeX-master nil)
 
 ; spell check
+;(setq-default ispell-program-name "aspell")
 (setq ispell-program-name "ispell")
 
 ; source: http://steve.yegge.googlepages.com/my-dot-emacs-file
