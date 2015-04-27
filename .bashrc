@@ -22,6 +22,7 @@ gpip(){
 # aliases
 alias emacs="emacs -nw"
 alias Emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
-alias kearns='ssh -X ldworkin@kearnsgroup.cis.upenn.edu'
-alias plat='ssh -X ldworkin@plat.cis.upenn.edu'
+alias activate="source venv/bin/activate"
+alias kearns='ssh ldworkin@kearnsgroup.cis.upenn.edu'
+alias plat='ssh ldworkin@plat.cis.upenn.edu'
 
