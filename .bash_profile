@@ -8,6 +8,7 @@ export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
 export ARCHFLAGS="-arch x86_64"
 export PIP_REQUIRE_VIRTUALENV=true
 export CASTRO_DATA_DIR=~/Dropbox/NetworksData/castro-movies
+export EDITOR=Emacs
 
 # http://mkelsey.com/2013/04/30/how-i-setup-virtualenv-and-virtualenvwrapper-on-my-mac/
 export WORKON_HOME=$HOME/.virtualenvs
