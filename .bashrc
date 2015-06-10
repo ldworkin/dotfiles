@@ -13,7 +13,7 @@ function cd() {
 }
 
 gpip(){
-   PIP_REQUIRE_VIRTUALENV="" pip "$@"
+   PIP_REQUIRE_VIRTUALENV="" sudo pip "$@"
 }
 
 # https://github.com/rupa/z
@@ -25,3 +25,4 @@ alias Emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
 alias kearns='ssh -X ldworkin@kearnsgroup.cis.upenn.edu'
 alias plat='ssh -X ldworkin@plat.cis.upenn.edu'
 
+source /usr/local/bin/virtualenvwrapper.sh
