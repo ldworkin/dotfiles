@@ -13,7 +13,7 @@ function cd() {
 }
 
 gpip(){
-   PIP_REQUIRE_VIRTUALENV="" pip "$@"
+   PIP_REQUIRE_VIRTUALENV="" sudo pip "$@"
 }
 
 # https://github.com/rupa/z
