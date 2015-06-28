@@ -23,6 +23,7 @@ gpip(){
 alias emacs="emacs -nw"
 alias Emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
 alias activate="source venv/bin/activate"
-alias kearns='ssh ldworkin@kearnsgroup.cis.upenn.edu'
-alias plat='ssh ldworkin@plat.cis.upenn.edu'
-
+alias incandenza='ssh ldworkin@incandenza.seas.upenn.edu'
+alias pemulis='ssh ldworkin@pemulis.seas.upenn.edu'
+alias do='ssh lilidworkin@192.241.169.165'
+alias nfs='ssh ldworkin_lilianne@ssh.phx.nearlyfreespeech.net'
