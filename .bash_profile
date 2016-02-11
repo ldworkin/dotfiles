@@ -5,6 +5,7 @@ fi
 # http://hackercodex.com/guide/mac-osx-mavericks-10.9-configuration/
 export PATH=/usr/local/bin:$PATH
 export PATH=/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH
+export PATH=/Applications/MATLAB_R2012a_Student.app/bin:$PATH
 export ARCHFLAGS="-arch x86_64"
 export PIP_REQUIRE_VIRTUALENV=true
 export CASTRO_DATA_DIR=~/Dropbox/NetworksData/castro-movies
@@ -15,3 +16,5 @@ export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 
 
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*

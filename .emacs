@@ -1,16 +1,103 @@
 ; reload by M-x load-file
 
+(setq-default indent-tabs-mode nil)
+
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.org/packages/") t)
+
 ; look for .el files in .emacs.d
 (add-to-list 'load-path "~/.emacs.d/files")
 
 ; 'uniquify' multiple buffers with the same name
-(require 'uniquify) 
-(setq 
+(require 'uniquify)
+(setq
   uniquify-buffer-name-style 'post-forward
   uniquify-separator ":")
 
+; close all buffers
+(defun close-all-buffers ()
+  (interactive)
+    (mapc 'kill-buffer (buffer-list)))
+
+
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
+; neotree
+(add-to-list 'load-path "~/.emacs.d/elpa/neotree-20151101.607")
+(require 'neotree)
+(global-set-key (kbd "C-c n") 'neotree-toggle)
+
+;magit
+(global-set-key (kbd "C-c g") 'magit-status)
+
+; rgrep
+(eval-after-load "grep"
+  '(grep-compute-defaults))
+
+(defun sgrep (&optional confirm)
+  (interactive "P")
+  (rgrep (grep-read-regexp)
+         "*"
+         "~/my-socratic/atom/"
+         confirm))
+
+(defun mgrep (&optional confirm)
+  (interactive "P")
+  (rgrep (grep-read-regexp)
+         "*"
+         "/socratic/golang/src/github.com/socraticorg/apiv2"
+         confirm))
+
+(global-set-key (kbd "C-x f") 'find-file-in-repository)
+
+(eval-after-load "grep"
+  '(progn
+     (add-to-list 'grep-find-ignored-directories "config")
+     (add-to-list 'grep-find-ignored-directories "node_modules")
+     (add-to-list 'grep-find-ignored-directories ".sass-cache")
+     (add-to-list 'grep-find-ignored-directories "static/dist")
+     (add-to-list 'grep-find-ignored-directories "ignored_files")
+     (add-to-list 'grep-find-ignored-directories "server/templates/dist")))
+
 ; python
 (load "python-mode")
+
+; coffee
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(coffee-tab-width 2)
+ '(flycheck-jshint-extract-javascript (quote auto)))
+
+; js
+(setq js-indent-level 4)
+
+; html
+(add-hook 'html-mode-hook
+	  (lambda ()
+	    ;; Default indentation is usually 2 spaces, changing to 4.
+	    (set (make-local-variable 'sgml-basic-offset) 4)))
+
+(add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+(setq web-mode-engines-alist
+      '(("django"    . "\\.html\\'")))
+
+; markdown
+(autoload 'markdown-mode "markdown-mode"
+  "Major mode for editing Markdown files" t)
+(add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+
+(require 'whitespace)
+(setq whitespace-style '(face empty tabs lines-tail trailing))
+ (global-whitespace-mode t)
+
+(setq whitespace-global-modes '(not go-mode))
+; (setq whitespace-global-modes '(not text-mode))
 
 ; pbcopy
 (require 'pbcopy)
@@ -104,3 +191,23 @@ inhibit-startup-echo-area-message t)
           (rename-buffer new-name)
           (set-visited-file-name new-name)
           (set-buffer-modified-p nil))))))
+
+; sort words
+(defun sort-words (reverse beg end)
+  "Sort words in region alphabetically, in REVERSE if negative.
+    Prefixed with negative \\[universal-argument], sorts in reverse.
+
+    The variable `sort-fold-case' determines whether alphabetic case
+    affects the sort order.
+
+    See `sort-regexp-fields'."
+  (interactive "*P\nr")
+  (sort-regexp-fields reverse "\\w+" "\\&" beg end))
+(put 'downcase-region 'disabled nil)
+
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
