@@ -1,37 +1,41 @@
-; reload by M-x load-file
+;; reload by M-x load-file
 
+;; use spaces instead of tabs
 (setq-default indent-tabs-mode nil)
 
+;; delete a selection when typing over it
+(delete-selection-mode 1)
+
+;; melpa repository
 (require 'package)
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/") t)
 
-; look for .el files in .emacs.d
+;; look for .el files in .emacs.d
 (add-to-list 'load-path "~/.emacs.d/files")
 
-; 'uniquify' multiple buffers with the same name
+;; type "y" for "yes
+(fset 'yes-or-no-p 'y-or-n-p)
+
+;; 'Uniquify' multiple buffers with the same name
 (require 'uniquify)
 (setq
   uniquify-buffer-name-style 'post-forward
   uniquify-separator ":")
 
-; close all buffers
+;; close all buffers
 (defun close-all-buffers ()
   (interactive)
     (mapc 'kill-buffer (buffer-list)))
 
-
+;; flycheck syntax checker
+;; http://www.flycheck.org/manual/latest/Quickstart.html
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
-; neotree
-(add-to-list 'load-path "~/.emacs.d/elpa/neotree-20151101.607")
-(require 'neotree)
-(global-set-key (kbd "C-c n") 'neotree-toggle)
-
-;magit
+;; magit
 (global-set-key (kbd "C-c g") 'magit-status)
 
-; rgrep
+;; rgrep
 (eval-after-load "grep"
   '(grep-compute-defaults))
 
@@ -50,6 +54,7 @@
          confirm))
 
 (global-set-key (kbd "C-x f") 'find-file-in-repository)
+(global-set-key (kbd "C-q") 'query-replace)
 
 (eval-after-load "grep"
   '(progn
@@ -60,32 +65,18 @@
      (add-to-list 'grep-find-ignored-directories "ignored_files")
      (add-to-list 'grep-find-ignored-directories "server/templates/dist")))
 
-; python
+;; python
 (load "python-mode")
 
-; coffee
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(coffee-tab-width 2)
- '(flycheck-jshint-extract-javascript (quote auto)))
-
-; js
+;; js
 (setq js-indent-level 4)
 
-; html
+;; html
 (add-hook 'html-mode-hook
-	  (lambda ()
-	    ;; Default indentation is usually 2 spaces, changing to 4.
-	    (set (make-local-variable 'sgml-basic-offset) 4)))
+          (lambda ()
+            (set (make-local-variable 'sgml-basic-offset) 4)))
 
-(add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
-(setq web-mode-engines-alist
-      '(("django"    . "\\.html\\'")))
-
-; markdown
+;; markdown
 (autoload 'markdown-mode "markdown-mode"
   "Major mode for editing Markdown files" t)
 (add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
@@ -97,86 +88,46 @@
  (global-whitespace-mode t)
 
 (setq whitespace-global-modes '(not go-mode))
-; (setq whitespace-global-modes '(not text-mode))
+(setq whitespace-global-modes '(not text-mode))
 
-; pbcopy
-(require 'pbcopy)
-(turn-on-pbcopy)
-
-; matlab
-(add-to-list 'load-path "~/.emacs.d/matlab-emacs")
-(load-library "matlab-load")
-
-; backups
+;; backups
 (defvar backup-dir (expand-file-name "~/.emacs.d/backups/"))
 (defvar autosave-dir (expand-file-name "~/.emacs.d/autosaves/"))
 (setq backup-directory-alist (list (cons ".*" backup-dir)))
 (setq auto-save-list-file-prefix autosave-dir)
 (setq auto-save-file-name-transforms `((".*" ,autosave-dir t)))
 
-; yasnippet
-(add-to-list 'load-path "~/.emacs.d/elpa/yasnippet-0.8.0")
-(setq yas-snippet-dirs "~/.emacs.d/elpa/yasnippet-0.8.0")
-(require 'yasnippet)
-(yas-global-mode 1)
-
-; font
+;; font
 (set-face-attribute 'default nil
                     :family "Menlo" :height 145 :weight 'normal)
 
-; IDO mode
+;; IDO mode
 (setq ido-enable-flex-matching t)
 (setq ido-everywhere t)
 (ido-mode 1)
 
-; remove menu bar
+;;remove menu bar
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 
-; remove startup message
+;; remove startup message
 (setq inhibit-startup-message t
 inhibit-startup-echo-area-message t)
 
-; use pdflatex
-(setq TeX-PDF-mode t)
-
-; one space after period
-(setq sentence-end-double-space nil)
-
-; visual line wrapping
+;; visual line wrapping
 (global-visual-line-mode t)
 
-; remap beginning/end buffer
+;; remap beginning/end buffer
 (global-set-key (kbd "C-c a") 'beginning-of-buffer)
 (global-set-key (kbd "C-c e") 'end-of-buffer)
 
-; remap interactive find/replace
+;; remap interactive find/replace
 (global-set-key (kbd "M-s") 'query-replace)
 
-; more python
-(setq comint-process-echoes t)
-(setq comint-scroll-to-bottom-on-output t)
-
-; smooth scrolling
-(setq scroll-margin 1
-      scroll-conservatively 0
-      scroll-up-aggressively 0.01
-      scroll-down-aggressively 0.01)
-(setq-default scroll-up-aggressively 0.01
-      scroll-down-aggressively 0.01)
-
-; open LaTex in preview
-(eval-after-load "tex"
-  '(add-to-list 'TeX-command-list '("View" "open %s.pdf" TeX-run-command t t)))
-
-; set default master files
-(setq-default TeX-master nil)
-
-; spell check
-;(setq-default ispell-program-name "aspell")
+;;  spell check
 (setq ispell-program-name "ispell")
 
-; source: http://steve.yegge.googlepages.com/my-dot-emacs-file
+;; source: http://steve.yegge.googlepages.com/my-dot-emacs-file
 (defun rename-file-and-buffer (new-name)
   "Renames both current buffer and file it's visiting to NEW-NAME."
   (interactive "sNew name: ")
@@ -192,7 +143,7 @@ inhibit-startup-echo-area-message t)
           (set-visited-file-name new-name)
           (set-buffer-modified-p nil))))))
 
-; sort words
+;; sort words
 (defun sort-words (reverse beg end)
   "Sort words in region alphabetically, in REVERSE if negative.
     Prefixed with negative \\[universal-argument], sorts in reverse.
@@ -203,11 +154,3 @@ inhibit-startup-echo-area-message t)
     See `sort-regexp-fields'."
   (interactive "*P\nr")
   (sort-regexp-fields reverse "\\w+" "\\&" beg end))
-(put 'downcase-region 'disabled nil)
-
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )

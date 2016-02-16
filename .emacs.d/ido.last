@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/lilidworkin/my-socratic/atom/ignored_files/mobile/" . "highlight/")
  ("/socratic/golang/src/github.com/socraticorg/apiv2/static/scripts/" . "external/")
  ("/socratic/golang/src/github.com/socraticorg/apiv2/static/" . "scripts/")
  ("/Users/lilidworkin/my-socratic/atom/init/" . "api/")
@@ -15,10 +16,10 @@
  ("/socratic/golang/src/github.com/socraticorg/apiv2/templates/" . "reader/")
  ("/Users/lilidworkin/Dropbox/Personal/Code/" . "matasano/")
  ("/socratic/golang/src/github.com/socraticorg/apiv2/config/" . "deploy/")
- ("/Users/lilidworkin/my-socratic/atom/ignored_files/" . "web/")
- ("/socratic/golang/src/github.com/socraticorg/" . "apiv2/")
+ ("/Users/lilidworkin/my-socratic/atom/ignored_files/" . "mobile/")
+ ("/socratic/golang/src/github.com/socraticorg/" . "highlight/")
  ("/socratic/golang/src/github.com/" . "socraticorg/")
- ("/socratic/golang/src/github.com/socraticorg/apiv2/" . "model/")
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/" . "search/")
  ("/socratic/go/src/github.com/" . "socraticorg/")
  ("/socratic/go/src/" . "github.com/")
  ("/socratic/go/" . "src/")
@@ -44,7 +45,7 @@
  ("/Users/lilidworkin/my-socratic/atom/static/scripts/" . "common/")
  ("/Users/lilidworkin/my-socratic/atom/static/" . "scripts/")
  ("/Users/lilidworkin/my-socratic/atom/server/" . "tests/")
- ("/Users/lilidworkin/my-socratic/atom/" . "static/")
+ ("/Users/lilidworkin/my-socratic/atom/" . "ignored_files/")
  ("/Users/lilidworkin/my-socratic/" . "atom/")
  ("/Users/lilidworkin/Socratic/atom/server/migrations/" . "done/")
  ("/Users/lilidworkin/Socratic/atom/server/templates/mobile/" . "snippets/")
@@ -180,6 +181,15 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/lilidworkin/"
+ "/"
+ "/socratic/golang/src/github.com/socraticorg/highlight/"
+ "/socratic/golang/src/github.com/socraticorg/apiv2/search/"
+ "/socratic/golang/src/github.com/socraticorg/apiv2/reader/"
+ "/socratic/golang/src/github.com/socraticorg/apiv2/"
+ "/socratic/golang/src/github.com/socraticorg/apiv2/templates/reader/"
+ "/socratic/golang/src/github.com/socraticorg/apiv2/util/"
+ "/socratic/golang/src/github.com/socraticorg/apiv2/static/scripts/external/"
  "/socratic/golang/src/github.com/socraticorg/apiv2/model/"
  "/Users/lilidworkin/my-socratic/atom/server/tests/"
  "/Users/lilidworkin/my-socratic/atom/server/util/"
@@ -195,15 +205,10 @@
  "/Users/lilidworkin/my-socratic/atom/server/templates/desktop/util/"
  "/Users/lilidworkin/my-socratic/atom/server/templates/desktop/"
  "/Users/lilidworkin/my-socratic/atom/server/templates/desktop/admin/"
- "/socratic/golang/src/github.com/socraticorg/apiv2/static/scripts/external/"
  "/socratic/golang/src/github.com/socraticorg/apiv2/static/scripts/"
- "/socratic/golang/src/github.com/socraticorg/apiv2/search/"
  "/Users/lilidworkin/Dropbox/ACTTION/content/"
- "/Users/lilidworkin/"
  "/Users/lilidworkin/my-socratic/atom/static/scripts/common/data/"
  "/Users/lilidworkin/my-socratic/atom/static/scripts/common/models/"
- "/socratic/golang/src/github.com/socraticorg/apiv2/reader/"
- "/socratic/golang/src/github.com/socraticorg/apiv2/"
  "/socratic/golang/src/github.com/socraticorg/apiv2/ocr/"
  "/Users/lilidworkin/my-socratic/atom/server/migrations/"
  "/Users/lilidworkin/my-socratic/atom/static/scripts/desktop/"
@@ -211,7 +216,6 @@
  "/Users/lilidworkin/my-socratic/atom/static/styles/scss/mobile/"
  "/Users/lilidworkin/my-socratic/atom/server/templates/mobile/"
  "/Users/lilidworkin/my-socratic/atom/server/templates/common/static_pages/"
- "/"
  "/Users/lilidworkin/my-socratic/atom/static/scripts/desktop/views/"
  "/Users/lilidworkin/my-socratic/atom/server/templates/desktop/content/"
  "/Users/lilidworkin/my-socratic/atom/server/data/"
@@ -227,32 +231,49 @@
  "/Users/lilidworkin/my-socratic/atom/ignored_files/mobile/"
  "/socratic/golang/src/github.com/socraticorg/apiv2/config/"
  "/Users/lilidworkin/my-socratic/atom/ignored_files/web/"
- "/Users/lilidworkin/my-socratic/atom/server/external/"
- "/socratic/"
- "/Users/lilidworkin/my-socratic/atom/server/settings/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "web_search.go"
- "ocr_result.go"
- "answer_request_test.py"
- "timestamp.py"
- "Question.py"
- "Event.py"
- "add_stars_to_auto_nominated_user_group_2016_01_04_ld.py"
- "AnswerRequestLib.py"
- "request_questions.py"
- "QuestionLib.py"
+ ".emacs"
+ "index12.html"
+ "index11.html"
+ "main.go"
+ "reader_modes.go"
+ "README.md"
+ "qa_page.html"
+ "qa_page_answer.html"
+ "index10.html"
+ "topic_page.html"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/lilidworkin/dotfiles/" (22211 19239 0 0) "README.md" "makesymlinks.sh" ".gitignore" ".git/" ".emacs.d/" ".emacs" ".DS_Store" ".bashrc" ".bash_profile" "../" "./")
+
+ ("/Users/lilidworkin/" (22211 19209 0 0) "z.sh" "web_searches.csv" "web_search_results.csv" "VirtualBox VMs/" "Public/" "pinterest.py" "Pictures/" "ocr_results.csv" "nltk_data/" "my_csvs/" "my-socratic/" "Music/" "Movies/" "Library/" "images.csv" "Dropbox/" "Downloads/" "dotfiles/" "Documents/" "devices.csv" "Desktop/" "daily_stats.csv" "Applications/" "active_devices.csv" ".zshrc" ".zlogin" ".z" ".Xauthority" ".vnc/" ".virtualenvs/" ".viminfo" ".vagrant.d/" ".Trash/" ".subversion/" ".ssh/" ".sqlite_history" ".rvm/" ".rnd" ".psql_history" ".profile" ".pgpass" ".npm/" ".node-gyp/" ".network_backups/" ".netrc" ".mongorc.js" ".modulus/" ".mkshrc" ".meteorsession" ".meteor/" ".matplotlib/" ".matlab/" ".local/" ".lesshst" ".ipython/" ".htoprc" ".heroku/" ".gradle/" ".gitconfig" ".gem/" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".distlib/" ".dbshell" ".cups/" ".cordova/" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".android/" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/highlight/" (22205 63677 0 0) "index9_files/" "index9.html" "index8_files/" "index8.html" "index7_files/" "index7.html" "index6_files/" "index6.html" "index5_files/" "index5.html" "index4_files/" "index4.html" "index3_files/" "index3.html" "index2_files/" "index2.html" "index12_files/" "index12.html" "index11_files/" "index11.html" "index10_files/" "index10.html" "index.html" ".#webview.js" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/" (22205 62804 0 0) "util/" "url2png.go" "tesseract/" "templates/" "static/" "settings.json" "settings.go" "secrets.json" "secrets.go" "search/" "route_names.go" "README.md" "reader/" "query/" "package.json" "ocr/" "node_modules/" "model_setup.go" "model/" "middleware_log.go" "middleware_error_handler.go" "metadata/" "main.go" "lib_web_search.go" "lib_story.go" "lib_ocr_result.go" "lib_image.go" "lib_daily_stat.go" "lib_active_devices.go" "leptonica/" "json_response.go" "json_handler.go" "init/" "handler_web_search_results.go" "handler_web_search.go" "handler_test_error.go" "handler_stories.go" "handler_stats.go" "handler_search.go" "handler_revision.go" "handler_reader.go" "handler_ranking_algorithms.go" "handler_query_filters.go" "handler_ocr_results.go" "handler_ocr_post_image.go" "handler_ocr_get_text.go" "handler_helpers.go" "handler_alchemy.go" "Gruntfile.js" "errors.go" "error_types.go" "cron.go" "config/" "cmd/" "Capfile" "app_environment.go" "apiv2" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/static/scripts/" (22205 63584 0 0) "webview.js" "external/" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/search/" (22204 61419 0 0) "video.go" "socratic.go" "search_source.go" "search_ranking_test.go" "search_multi_test.go" "search_multi.go" "search_filter_test.go" "ranking_algorithms.go" "metadata.go" "math.go" "main.go" "google.go" "experiment_cards.go" "client_script.go" "bing.go" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/reader/" (22205 61925 0 0) "reader_yahoo_answers.go" "reader_weegy.go" "reader_test.go" "reader_shmoop.go" "reader_modes.go" "reader_jiskha.go" "reader_enotes.go" "reader_ehow.go" "reader_chacha.go" "reader_brainly.go" "reader_ask_dot_com.go" "reader_answers_dot_com.go" "reader_algebra_dot_com.go" "reader_about_dot_com.go" "main.go" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/static/scripts/external/" (22204 61147 0 0) "highlight.js" "amplitude.js" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/tesseract/" (22120 40095 0 0) "util.go" "test_images/" "tesseract_test.go" "tesseract.go" "iterator.go" "_obj/" ".DS_Store" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/templates/reader/" (22204 45718 0 0) "topic_page.html" "qa_page_answer.html" "qa_page.html" "page_styles.html" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/" (22204 40125 0 0) "raven-go/" "highlight/" "apiv2/" "add_photo.sh" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/ignored_files/mobile/highlight/" (22203 58658 0 0) "webview.js" "index8_files/" "index8.html" "index7_files/" "index7.html" "index6_files/" "index6.html" "index5_files/" "index5.html" "index4_files/" "index4.html" "index3_files/" "index3.html" "index2_files/" "index2.html" "index.html" "highlight.js" ".#webview.js" "../" "./")
+
  ("/socratic/golang/src/github.com/socraticorg/apiv2/model/" (22204 38491 0 0) "web_search_result_vote.go" "web_search_result.go" "web_search_classification.go" "web_search.go" "story.go" "setup_test.go" "schema.go" "README.md" "ocr_result.go" "migrations/" "image_test.go" "image.go" "device_test.go" "device.go" "db.go" "daily_stats.go" "daily_stat_test.go" "base.go" "active_device_test.go" "active_device.go" "../" "./")
-
- ("/socratic/golang/src/github.com/socraticorg/" (22132 8335 0 0) "raven-go/" "apiv2/" "add_photo.sh" ".DS_Store" "../" "./")
-
- ("/socratic/golang/src/github.com/socraticorg/apiv2/" (22203 60987 0 0) "util/" "url2png.go" "tesseract/" "templates/" "static/" "settings.json" "settings.go" "secrets.json" "secrets.go" "search/" "route_names.go" "README.md" "reader/" "query/" "package.json" "ocr/" "node_modules/" "model_setup.go" "model/" "middleware_log.go" "middleware_error_handler.go" "metadata/" "main.go" "lib_web_search.go" "lib_story.go" "lib_ocr_result.go" "lib_image.go" "lib_daily_stat.go" "lib_active_devices.go" "leptonica/" "json_response.go" "json_handler.go" "init/" "handler_web_search_results.go" "handler_web_search.go" "handler_test_error.go" "handler_stories.go" "handler_stats.go" "handler_search.go" "handler_revision.go" "handler_reader.go" "handler_ranking_algorithms.go" "handler_query_filters.go" "handler_ocr_results.go" "handler_ocr_post_image.go" "handler_ocr_get_text.go" "handler_helpers.go" "handler_alchemy.go" "Gruntfile.js" "errors.go" "error_types.go" "cron.go" "config/" "cmd/" "Capfile" "app_environment.go" "apiv2" ".gitignore" ".git/" ".DS_Store" "../" "./")
 
  ("/Users/lilidworkin/my-socratic/atom/server/model/" (22203 49016 0 0) "Video.pyc" "Video.py" "UserSetting.pyc" "UserSetting.py" "UserPasswordReset.pyc" "UserPasswordReset.py" "UserGroup.pyc" "UserGroup.py" "UserBadgeState.pyc" "UserBadgeState.py" "UserBadge.pyc" "UserBadge.py" "User.pyc" "User.py" "Trending.pyc" "Trending.py" "Topic.pyc" "Topic.py" "Suspension.pyc" "Suspension.py" "Streak.pyc" "Streak.py" "Stat.pyc" "Stat.py" "Scratchpad.pyc" "Scratchpad.py" "reset_dev.pyc" "reset_dev.py" "Redirect.pyc" "Redirect.py" "QuestionView.pyc" "QuestionView.py" "Question.pyc" "Question.py" "ProspectiveContributor.pyc" "ProspectiveContributor.py" "ProfilePic.pyc" "ProfilePic.py" "PotentialQuestionKeyword.pyc" "PotentialQuestionKeyword.py" "PotentialQuestion.pyc" "PotentialQuestion.py" "postgres.pyc" "postgres.py" "Point.pyc" "Point.py" "ParagraphFeedback.pyc" "ParagraphFeedback.py" "OldComment.py" "mosql.py" "mongo_collections.pyc" "mongo_collections.py" "ModerationResult.pyc" "ModerationResult.py" "MockDatabase.pyc" "MockDatabase.py" "Lesson.pyc" "Lesson.py" "InviteCode.pyc" "InviteCode.py" "Follow.pyc" "Flag.pyc" "Flag.py" "Feed.pyc" "Feed.py" "FeaturedUser.pyc" "FeaturedUser.py" "FeaturedTopicQuestion.pyc" "FeaturedTopicQuestion.py" "Experiment.pyc" "Event.pyc" "Event.py" "Edmodo.pyc" "Edmodo.py" "Edit.pyc" "Edit.py" "DailyStat.pyc" "DailyStat.py" "create_indexes.pyc" "create_indexes.py" "CourseRequest.pyc" "CourseRequest.py" "Course.pyc" "Course.py" "Counter.pyc" "Counter.py" "Comment.pyc" "Comment.py" "CollectionContent.pyc" "CollectionContent.py" "Collection.pyc" "Collection.py" "Chapter.pyc" "Chapter.py" "base.pyc" "base.py" "Badge.pyc" "Badge.py" "AnswerRequest.pyc" "AnswerRequest.py" "AnswerContributor.pyc" "AnswerContributor.py" "Answer.pyc" "Answer.py" "__init__.pyc" "__init__.py" ".DS_Store" "../" "./")
 
@@ -298,15 +319,9 @@
 
  ("/Users/lilidworkin/my-socratic/atom/server/migrations/" (22200 63383 0 0) "done/" "__init__.pyc" "__init__.py" ".DS_Store" "../" "./")
 
- ("/socratic/golang/src/github.com/socraticorg/apiv2/reader/" (22202 324 0 0) "reader_yahoo_answers.go" "reader_weegy.go" "reader_test.go" "reader_shmoop.go" "reader_modes.go" "reader_jiskha.go" "reader_enotes.go" "reader_ehow.go" "reader_chacha.go" "reader_brainly.go" "reader_ask_dot_com.go" "reader_answers_dot_com.go" "reader_algebra_dot_com.go" "reader_about_dot_com.go" "main.go" "../" "./")
-
  ("/Users/lilidworkin/my-socratic/atom/static/scripts/common/models/" (22200 60948 0 0) "video.js" "user.js" "topic.js" "search_results.js" "scratchpad.js" "question.js" "question-search-manager.js" "potential-question-keyword.js" "moderation.js" "lesson.js" "flag.js" "event.js" "course.js" "comment.js" "collection.js" "chapter.js" "answer.js" "../" "./")
 
- ("/Users/lilidworkin/" (22202 5339 0 0) "z.sh" "web_searches.csv" "web_search_results.csv" "VirtualBox VMs/" "Public/" "pinterest.py" "Pictures/" "ocr_results.csv" "nltk_data/" "my_csvs/" "my-socratic/" "Music/" "Movies/" "Library/" "images.csv" "Dropbox/" "Downloads/" "dotfiles/" "Documents/" "devices.csv" "Desktop/" "daily_stats.csv" "Applications/" "active_devices.csv" ".zshrc" ".zlogin" ".z" ".Xauthority" ".vnc/" ".virtualenvs/" ".viminfo" ".vagrant.d/" ".Trash/" ".subversion/" ".ssh/" ".sqlite_history" ".rvm/" ".rnd" ".psql_history" ".profile" ".pgpass" ".npm/" ".node-gyp/" ".network_backups/" ".netrc" ".mongorc.js" ".modulus/" ".mkshrc" ".meteorsession" ".meteor/" ".matplotlib/" ".matlab/" ".local/" ".lesshst" ".ipython/" ".htoprc" ".heroku/" ".gradle/" ".gitconfig" ".gem/" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".distlib/" ".dbshell" ".cups/" ".cordova/" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".android/" "../" "./")
-
  ("/Users/lilidworkin/Dropbox/ACTTION/content/" (22200 819 0 0) "workinggroups.html" "static/" "rremit.html" "rreads.html" "rreact.html" "publications.html" "partners.html" "paac.html" "otherpartners.html~" "organization.html" "newsletter2.html" "newsletter.html~" "newsletter.html" "newsletter-update.html" "news/" "home.html~" "home.html" "contact_us.html" "consortia_collaborations.html" "committee.html" "cares.html" "alertt.html" "advisors.html" "adept11_agenda.html" "adept11.html" "acttion14_transcript2.pdf" "acttion14_transcript1.pdf" "acttion14_agenda.pdf" "acttion14.html" "acttion12_agenda.html" "acttion12.html" "action11_agenda.html" "action11.html" "aapt.html" ".hyde_deps" ".DS_Store" "../" "./")
-
- ("/socratic/golang/src/github.com/socraticorg/apiv2/search/" (22202 6652 0 0) "video.go" "socratic.go" "search_source.go" "search_ranking_test.go" "search_multi_test.go" "search_multi.go" "search_filter_test.go" "ranking_algorithms.go" "metadata.go" "math.go" "main.go" "google.go" "experiment_cards.go" "client_script.go" "bing.go" "../" "./")
 
  ("/Users/lilidworkin/my-socratic/atom/server/templates/common/" (22200 60948 0 0) "util/" "user_settings.html" "user_history.html" "typekit.html" "suspension.html" "static_pages/" "snippets/" "sentry.html" "notifications.html" "new_relic_browser.html" "modals/" "mathjax_config.html" "legal/" "google_analytics.html" "email_action_taken.html" "edmodo/" "deactivated_account.html" "csrf_protection.html" "course_request_page.html" "conversation.html" "close_window.html" "baseModal.html" "base_html_vars.html" "base_html_meta_tags.html" "app_init.html" "analytics.html" ".DS_Store" "../" "./")
 
@@ -320,15 +335,9 @@
 
  ("/Users/lilidworkin/my-socratic/atom/server/" (22200 61334 0 0) "youtube_messages/" "util/" "unencrypted_settings.pyc" "unencrypted_settings.py" "tests/" "templates/" "static_files.pyc" "static_files.py" "slack/" "settings/" "newrelic.ini" "model/" "MNIST_data/" "migrations/" "lib/" "handlers_v2/" "handlers/" "external/" "emails/" "data/" "bin/" "app.pyc" "app.py" ".DS_Store" "../" "./")
 
- ("/socratic/golang/src/github.com/socraticorg/apiv2/static/scripts/external/" (22159 57362 0 0) "highlight.js" "amplitude.js" "../" "./")
-
- ("/socratic/golang/src/github.com/socraticorg/apiv2/static/scripts/" (22164 6279 0 0) "webview.js" "external/" "../" "./")
-
  ("/socratic/golang/src/github.com/socraticorg/apiv2/static/" (22159 57362 0 0) "scripts/" "build/" "../" "./")
 
  ("/Users/lilidworkin/Dropbox/ACTTION/" (21681 43059 0 0) "site.yaml" "README.markdown" "layout/" "info.yaml" "deploy/" "content/" ".hyde_deps" ".DS_Store" "../" "./")
-
- ("/Users/lilidworkin/dotfiles/" (22199 57476 0 0) "README.md" "makesymlinks.sh" ".gitignore" ".git/" ".emacs.d/" ".emacs" ".DS_Store" ".bashrc" ".bash_profile" "../" "./")
 
  ("/Users/lilidworkin/my-socratic/atom/server/lib/redirect_lib/" (21999 774 0 0) "VideoRedirect.pyc" "VideoRedirect.py" "TopicRedirect.pyc" "TopicRedirect.py" "QuestionRedirect.py" "ChapterRedirect.pyc" "ChapterRedirect.py" "__init__.pyc" "__init__.py" "../" "./")
 
@@ -406,8 +415,6 @@
 
  ("/socratic/golang/src/github.com/socraticorg/apiv2/ocr/" (22169 4114 0 0) "test_images/" "tesseract_test.go" "tesseract.go" "save_to_disk.go" "s3.go" "ocr_source.go" "main.go" "google_vision_test.go" "google_vision.go" "crop.go" "a9t9_test.go" "a9t9.go" ".DS_Store" "../" "./")
 
- ("/socratic/golang/src/github.com/socraticorg/apiv2/templates/reader/" (22166 44136 0 0) "topic_page.html" "qa_page_answer.html" "qa_page.html" "page_styles.html" "../" "./")
-
  ("/Users/lilidworkin/Dropbox/ACTTION/deploy/" (22171 55183 0 0) "workinggroups.html" "static/" "rremit.html" "rreads.html" "rreact.html" "publications.html" "partners.html" "paac.html" "otherpartners.html" "organization.html" "newsletter2.html" "newsletter.html" "newsletter-update.html" "news/" "home.html" "contact_us.html" "consortia_collaborations.html" "committee.html" "cares.html" "alertt.html" "advisors.html" "adept11_agenda.html" "adept11.html" "acttion14_transcript2.pdf" "acttion14_transcript1.pdf" "acttion14_agenda.pdf" "acttion14.html" "acttion12_agenda.html" "acttion12.html" "action11_agenda.html" "action11.html" "aapt.html" ".hyde_deps" ".DS_Store" "../" "./")
 
  ("/Users/lilidworkin/Dropbox/ACTTION/content/news/" (22171 54299 0 0) "9_3_14.html" "9_30_14.html" "9_30_11.html" "9_29_14.html" "9_25_12.html" "9_21_15.html" "9_20_12.html" "9_16_11.html" "8_7_12.html" "8_31_11.html" "8_1_12.html" "7_9_12.html" "7_8_11.html" "7_31_12.html" "7_29_11.html" "7_24_13.html~" "7_24_13.html" "7_19_13.html~" "7_19_13.html" "7_18_11.html" "6_6_12.html" "6_4_15.html" "6_29_11.html" "6_26_15.html" "6_17_15.html" "6_15_11.html" "6_11_12.html" "5_5_14.html" "5_30_11.html" "5_22_14.html" "5_20_14.html" "4_6_15.html" "4_27_15.html" "4_24_13.html" "4_23_12.html" "4_1_15.html" "4_18_13.html" "4_17_13.html" "4_16_12.html" "3_7_13.html" "3_5_13.html" "3_20_15.html" "3_1_13.html" "3_1_12.html" "3_15_12.html" "3_13_15.html" "3_10_12.html" "2_5_14.html" "2_22_12.html" "1_3_12.html" "1_22b_15.html" "1_22a_15.html" "1_10_14.html" "12_30_14.html" "12_2_14.html" "12_26_12.html" "12_21_11.html" "12_1_13.html" "12_17_15.html" "12_10_12.html" "11_4_13.html~" "11_4_13.html" "11_30_15.html" "11_29_13.html" "11_26_13.html~" "11_26_13.html" "11_20_12.html" "11_17_11.html" "11_10_15.html" "10_5_12.html" "10_24_12.html" "10_24_11.html" "10_23_13.html~" "10_23_13.html" "10_17_14.html" "10_11_12.html" "10_10_12.html" ".DS_Store" "../" "./")
@@ -442,12 +449,6 @@
  ("/Users/lilidworkin/Dropbox/Personal/Code/" (22151 24193 0 0) "tv.py" "tutorial-generator/" "turnin/" "stockfighter/" "source_syncing/" "quotes/" "quoteboard/" "portfolio/" "oldprojects/" "matasano/" "lilianne/" "interviews/" "IMMPACT/" "GraphColoring/" "euler/" "desugar/" "c/" ".DS_Store" "../" "./")
 
  ("/Users/lilidworkin/Dropbox/Personal/Code/stockfighter/" (22151 24827 0 0) "stockfighter.py" "../" "./")
-
- ("/socratic/golang/src/github.com/socraticorg/apiv2/query/" (22138 52648 0 0) "query_filters_test.go" "query_filters.go" "../" "./")
-
- ("/Users/lilidworkin/my-socratic/atom/static/scripts/" (22029 13788 0 0) "mobile.dev.js" "mobile/" "external/" "desktop.dev.js" "desktop/" "common/" ".DS_Store" "../" "./")
-
- ("/socratic/golang/src/github.com/socraticorg/apiv2/config/deploy/" (22135 3908 0 0) "production.rb" "beta.rb" "alpha.rb" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
