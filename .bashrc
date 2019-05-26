@@ -9,24 +9,12 @@ export PS1="${B}\u${N}@${G}\h${N}:${R}\w${N}\$ "
 
 # ls after cd
 function cd() { 
-	builtin cd "$@" && ls; 
-}
-
-gpip(){
-   PIP_REQUIRE_VIRTUALENV="" sudo pip "$@"
+    builtin cd "$@" && ls; 
 }
 
 # https://github.com/rupa/z
 . ~/z.sh
 
 # aliases
-alias emacs="emacs -nw"
 alias Emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
-alias activate="source venv/bin/activate"
-alias kearns="ssh ldworkin@kearnsgroup.cis.upenn.edu"
-alias incandenza="ssh ldworkin@incandenza.seas.upenn.edu"
-alias pemulis="ssh ldworkin@pemulis.seas.upenn.edu"
-alias ocean="ssh lilidworkin@192.241.169.165"
-alias nfs="ssh ldworkin_lilianne@ssh.phx.nearlyfreespeech.net"
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
