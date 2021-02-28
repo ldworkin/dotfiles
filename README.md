@@ -1,0 +1,3 @@
+# Requirements
+* zsh
+* wget
