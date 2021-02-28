@@ -2,6 +2,9 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/lilidworkin/.oh-my-zsh/custom/plugins/" . "example/")
+ ("/Users/lilidworkin/.oh-my-zsh/custom/" . "plugins/")
+ ("/Users/lilidworkin/.oh-my-zsh/" . "custom/")
  ("/Users/lilidworkin/my-socratic/atom/ignored_files/mobile/" . "highlight/")
  ("/socratic/golang/src/github.com/socraticorg/apiv2/static/scripts/" . "external/")
  ("/socratic/golang/src/github.com/socraticorg/apiv2/static/" . "scripts/")
@@ -167,7 +170,7 @@
  ("/Users/lilidworkin/dotfiles/.emacs.d/elpa/" . "yasnippet-0.8.0/")
  ("/Users/lilidworkin/dotfiles/.emacs.d/" . "elpa/")
  ("/Users/lilidworkin/dotfiles/" . ".emacs.d/")
- ("/Users/lilidworkin/" . "my-socratic/")
+ ("/Users/lilidworkin/" . ".oh-my-zsh/")
  ("/Users/lilidworkin/Dropbox/trading/" . "rolling/")
  ("/Users/lilidworkin/Dropbox/trading/notes/" . "note10/")
  ("/Users/lilidworkin/Dropbox/Personal/Github/" . "meteor-food-diary/")
@@ -181,8 +184,10 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/lilidworkin/"
  "/Users/lilidworkin/dotfiles/"
+ "/Users/lilidworkin/.oh-my-zsh/custom/plugins/example/"
+ "/Users/lilidworkin/.oh-my-zsh/custom/"
+ "/Users/lilidworkin/"
  "/"
  "/socratic/golang/src/github.com/socraticorg/highlight/"
  "/socratic/golang/src/github.com/socraticorg/apiv2/search/"
@@ -229,29 +234,37 @@
  "/Users/lilidworkin/my-socratic/atom/static/scripts/common/views/"
  "/Users/lilidworkin/my-socratic/atom/server/templates/desktop/contractor/"
  "/Users/lilidworkin/my-socratic/atom/server/templates/mobile/moderation/"
- "/Users/lilidworkin/my-socratic/atom/ignored_files/mobile/"
- "/socratic/golang/src/github.com/socraticorg/apiv2/config/"
 )
 
 ;; ----- ido-work-file-list -----
 (
  ".zshrc"
+ "README.md"
+ "makesymlinks.sh"
+ "example.plugin.zsh"
+ "example.zsh"
  ".bashrc"
  ".bash_profile"
  ".emacs"
  "index12.html"
  "index11.html"
- "main.go"
- "reader_modes.go"
- "README.md"
- "qa_page.html"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/lilidworkin/" (24635 42906 557354 10000) ".viminfo" ".buckconfig.d/" ".bash_history" ".putty/" ".gitconfig" ".aws/" ".cache/" ".python_history" "Downloads/" ".vscode_is_microsoft_remoting" "Documents/" ".Trash/" "Dropbox/" "Applications/" ".emacs" "Movies/" ".ssh/" ".pip/" "growprogress/" ".cisco/" ".fb-sks-agent/" ".dropbox/" "Public/" ".bash_sessions/" ".cups/" ".vscode-fb-mkt/" ".node_repl_history" ".emacs.d/" "dotfiles_old/" ".matplotlib/" "Library/" "Desktop/" ".ipython/" ".vscode-working-sets.json" ".zsh_history" ".vscode-fb-insiders-mkt/" "Pictures/" ".local/" ".arcrc" ".zshrc" ".z" ".wget-hsts" ".CFUserTextEncoding" "z.sh" ".yarnrc" "dotfiles/" ".vscode-fb-insiders/" ".DS_Store" "Ax/" ".scm.sqlite" ".anyconnect" ".vscode-fb/" ".distlib/" "Music/" ".config/" "../" "./")
+ ("/Users/lilidworkin/Ax/" (24529 6327 229798 621000) "Pipfile.lock" ".git/" "tutorials/" ".github/" "scripts/" "sphinx/" "CONTRIBUTING.md" ".gitignore" "setup.py" "Pipfile" "env/" "README.md" "docs/" "website/" "pyproject.toml" "CHANGELOG.md" "LICENSE" "pytest.ini" ".DS_Store" "ax/" ".flake8" "CODE_OF_CONDUCT.md" "../" "./")
 
- ("/Users/lilidworkin/dotfiles/" (24635 42810 533935 959000) ".bash_profile" ".git/" ".emacs" ".gitignore" ".emacs.d/" "makesymlinks.sh" ".bashrc" "../" "./")
+ ("/Users/lilidworkin/dotfiles/" (24635 46407 765506 619000) ".git/" ".emacs" ".gitignore" "README.md" ".emacs.d/" "makesymlinks.sh" ".zshrc" "../" "./")
+
+ ("/Users/lilidworkin/.oh-my-zsh/custom/plugins/example/" (24635 44294 448072 52000) "example.plugin.zsh" "../" "./")
+
+ ("/Users/lilidworkin/.oh-my-zsh/custom/plugins/" (24635 44294 448020 829000) "example/" "../" "./")
+
+ ("/Users/lilidworkin/.oh-my-zsh/custom/" (24635 44294 448181 463000) "themes/" "example.zsh" "plugins/" "../" "./")
+
+ ("/Users/lilidworkin/.oh-my-zsh/" (24635 44294 575492 277000) "themes/" "custom/" "LICENSE.txt" ".git/" ".gitpod.yml" "log/" "templates/" "lib/" ".github/" "CONTRIBUTING.md" ".gitignore" "README.md" ".editorconfig" ".gitpod.Dockerfile" "oh-my-zsh.sh" "plugins/" "cache/" "tools/" "CODE_OF_CONDUCT.md" "../" "./")
+
+ ("/Users/lilidworkin/" (24635 44638 705265 189000) ".#.zshrc" ".viminfo" ".buckconfig.d/" ".bash_history" ".putty/" ".gitconfig" ".aws/" ".cache/" ".python_history" "Downloads/" ".oh-my-zsh/" ".vscode_is_microsoft_remoting" "Documents/" ".Trash/" "Dropbox/" ".zcompdump-lilidworkin-mbp (2)-5.7.1" "Applications/" ".emacs" "Movies/" ".ssh/" ".pip/" "growprogress/" ".cisco/" ".fb-sks-agent/" ".dropbox/" "Public/" ".bash_sessions/" ".cups/" ".vscode-fb-mkt/" ".node_repl_history" ".emacs.d/" "dotfiles_old/" ".matplotlib/" "Library/" "Desktop/" ".ipython/" ".vscode-working-sets.json" ".zsh_history" ".vscode-fb-insiders-mkt/" "Pictures/" ".local/" ".arcrc" ".zshrc" ".zshrc.pre-oh-my-zsh" ".z" ".wget-hsts" ".CFUserTextEncoding" "z.sh" ".yarnrc" "dotfiles/" ".vscode-fb-insiders/" ".DS_Store" "Ax/" ".scm.sqlite" ".anyconnect" ".vscode-fb/" ".distlib/" "Music/" ".config/" "../" "./")
 
  ("/socratic/golang/src/github.com/socraticorg/highlight/" (22205 63677 0 0) "index9_files/" "index9.html" "index8_files/" "index8.html" "index7_files/" "index7.html" "index6_files/" "index6.html" "index5_files/" "index5.html" "index4_files/" "index4.html" "index3_files/" "index3.html" "index2_files/" "index2.html" "index12_files/" "index12.html" "index11_files/" "index11.html" "index10_files/" "index10.html" "index.html" ".#webview.js" "../" "./")
 
@@ -438,17 +451,6 @@
  ("/socratic/golang/src/github.com/socraticorg/apiv2/config/" (22159 57362 0 0) "s3.rb" "deploy.rb" "deploy/" "../" "./")
 
  ("/Users/lilidworkin/Dropbox/Personal/Code/matasano/" (22153 27373 0 0) "set2.py" "set1.py" "8.txt" "7.txt" "6.txt" "4.txt" "10.txt" "../" "./")
-
- ("/socratic/golang/src/github.com/socraticorg/apiv2/templates/" (22138 51785 0 0) "reader/" "../" "./")
-
- ("/Users/lilidworkin/Dropbox/" (22140 39479 0 0) "Trading/" "SPECTRUM (1)/" "Spectrum/" "Research/" "Rankings/" "Personal/" "Penn/" "networked_life/" "MSR/" "MLTrading/" "LongRunPD/" "IMMPACT/" "Icon
-" "ContagionExperiments/" "Collective Memorization/" "BehavioralExp/" "ATT/" "ACTTION/" "1Password/" ".ws.agile.1Password.settings" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
-
- ("/Users/lilidworkin/Dropbox/Personal/" (22116 60578 0 0) "SF Blog/" "School/" "resume-industry2/" "resume-industry/" "resume/" "Pictures/" "Old/" "Logos/" "Jobs/" "Interviews/" "Github/" "Gimp/" "FasterTimes/" "debatably/" "Codecademy/" "Code/" "Apartments/" ".DS_Store" "../" "./")
-
- ("/Users/lilidworkin/Dropbox/Personal/Code/" (22151 24193 0 0) "tv.py" "tutorial-generator/" "turnin/" "stockfighter/" "source_syncing/" "quotes/" "quoteboard/" "portfolio/" "oldprojects/" "matasano/" "lilianne/" "interviews/" "IMMPACT/" "GraphColoring/" "euler/" "desugar/" "c/" ".DS_Store" "../" "./")
-
- ("/Users/lilidworkin/Dropbox/Personal/Code/stockfighter/" (22151 24827 0 0) "stockfighter.py" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

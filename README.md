@@ -1,3 +1,3 @@
 # Requirements
-* zsh
+* oh-my-zsh
 * wget
