@@ -1,3 +1,5 @@
+# . ~/.zshrc
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -108,3 +110,5 @@ function cd() {
 
 # https://github.com/rupa/z
 . ~/z.sh
+
+export EDITOR="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
