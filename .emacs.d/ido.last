@@ -182,6 +182,7 @@
 ;; ----- ido-work-directory-list -----
 (
  "/Users/lilidworkin/"
+ "/Users/lilidworkin/dotfiles/"
  "/"
  "/socratic/golang/src/github.com/socraticorg/highlight/"
  "/socratic/golang/src/github.com/socraticorg/apiv2/search/"
@@ -230,11 +231,13 @@
  "/Users/lilidworkin/my-socratic/atom/server/templates/mobile/moderation/"
  "/Users/lilidworkin/my-socratic/atom/ignored_files/mobile/"
  "/socratic/golang/src/github.com/socraticorg/apiv2/config/"
- "/Users/lilidworkin/my-socratic/atom/ignored_files/web/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ ".zshrc"
+ ".bashrc"
+ ".bash_profile"
  ".emacs"
  "index12.html"
  "index11.html"
@@ -242,16 +245,13 @@
  "reader_modes.go"
  "README.md"
  "qa_page.html"
- "qa_page_answer.html"
- "index10.html"
- "topic_page.html"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/lilidworkin/dotfiles/" (22211 19239 0 0) "README.md" "makesymlinks.sh" ".gitignore" ".git/" ".emacs.d/" ".emacs" ".DS_Store" ".bashrc" ".bash_profile" "../" "./")
+ ("/Users/lilidworkin/" (24635 42906 557354 10000) ".viminfo" ".buckconfig.d/" ".bash_history" ".putty/" ".gitconfig" ".aws/" ".cache/" ".python_history" "Downloads/" ".vscode_is_microsoft_remoting" "Documents/" ".Trash/" "Dropbox/" "Applications/" ".emacs" "Movies/" ".ssh/" ".pip/" "growprogress/" ".cisco/" ".fb-sks-agent/" ".dropbox/" "Public/" ".bash_sessions/" ".cups/" ".vscode-fb-mkt/" ".node_repl_history" ".emacs.d/" "dotfiles_old/" ".matplotlib/" "Library/" "Desktop/" ".ipython/" ".vscode-working-sets.json" ".zsh_history" ".vscode-fb-insiders-mkt/" "Pictures/" ".local/" ".arcrc" ".zshrc" ".z" ".wget-hsts" ".CFUserTextEncoding" "z.sh" ".yarnrc" "dotfiles/" ".vscode-fb-insiders/" ".DS_Store" "Ax/" ".scm.sqlite" ".anyconnect" ".vscode-fb/" ".distlib/" "Music/" ".config/" "../" "./")
 
- ("/Users/lilidworkin/" (22211 19209 0 0) "z.sh" "web_searches.csv" "web_search_results.csv" "VirtualBox VMs/" "Public/" "pinterest.py" "Pictures/" "ocr_results.csv" "nltk_data/" "my_csvs/" "my-socratic/" "Music/" "Movies/" "Library/" "images.csv" "Dropbox/" "Downloads/" "dotfiles/" "Documents/" "devices.csv" "Desktop/" "daily_stats.csv" "Applications/" "active_devices.csv" ".zshrc" ".zlogin" ".z" ".Xauthority" ".vnc/" ".virtualenvs/" ".viminfo" ".vagrant.d/" ".Trash/" ".subversion/" ".ssh/" ".sqlite_history" ".rvm/" ".rnd" ".psql_history" ".profile" ".pgpass" ".npm/" ".node-gyp/" ".network_backups/" ".netrc" ".mongorc.js" ".modulus/" ".mkshrc" ".meteorsession" ".meteor/" ".matplotlib/" ".matlab/" ".local/" ".lesshst" ".ipython/" ".htoprc" ".heroku/" ".gradle/" ".gitconfig" ".gem/" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".distlib/" ".dbshell" ".cups/" ".cordova/" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".android/" "../" "./")
+ ("/Users/lilidworkin/dotfiles/" (24635 42810 533935 959000) ".bash_profile" ".git/" ".emacs" ".gitignore" ".emacs.d/" "makesymlinks.sh" ".bashrc" "../" "./")
 
  ("/socratic/golang/src/github.com/socraticorg/highlight/" (22205 63677 0 0) "index9_files/" "index9.html" "index8_files/" "index8.html" "index7_files/" "index7.html" "index6_files/" "index6.html" "index5_files/" "index5.html" "index4_files/" "index4.html" "index3_files/" "index3.html" "index2_files/" "index2.html" "index12_files/" "index12.html" "index11_files/" "index11.html" "index10_files/" "index10.html" "index.html" ".#webview.js" "../" "./")
 
