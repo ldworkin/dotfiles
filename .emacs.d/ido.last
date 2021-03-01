@@ -185,8 +185,8 @@
 ;; ----- ido-work-directory-list -----
 (
  "/Users/lilidworkin/dotfiles/"
- "/Users/lilidworkin/.oh-my-zsh/custom/plugins/example/"
  "/Users/lilidworkin/.oh-my-zsh/custom/"
+ "/Users/lilidworkin/.oh-my-zsh/custom/plugins/example/"
  "/Users/lilidworkin/"
  "/"
  "/socratic/golang/src/github.com/socraticorg/highlight/"
@@ -238,33 +238,35 @@
 
 ;; ----- ido-work-file-list -----
 (
- ".zshrc"
- "README.md"
- "makesymlinks.sh"
- "example.plugin.zsh"
+ "setup.zsh"
+ "functions.zsh"
+ "custom.zsh"
+ "aliases.zsh"
  "example.zsh"
+ ".zshrc"
+ "makesymlinks.sh"
+ "README.md"
+ "example.plugin.zsh"
  ".bashrc"
- ".bash_profile"
- ".emacs"
- "index12.html"
- "index11.html"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/lilidworkin/dotfiles/" (24637 21480 370276 958000) ".git/" ".emacs" "functions.zsh" ".gitignore" "custom.zsh" "README.md" ".emacs.d/" ".zshrc" "setup.zsh" "aliases.zsh" "../" "./")
+
+ ("/Users/lilidworkin/" (24637 21167 371369 384000) ".zshrc.omz-uninstalled-2021-02-28_21-11-21" ".zshrc.omz-uninstalled-2021-02-28_21-09-48" ".viminfo" ".buckconfig.d/" ".bash_history" ".putty/" ".gitconfig" ".aws/" ".cache/" ".python_history" "Downloads/" ".oh-my-zsh/" ".vscode_is_microsoft_remoting" "Documents/" ".Trash/" "Dropbox/" ".zcompdump-lilidworkin-mbp (2)-5.7.1" "Applications/" ".emacs" "Movies/" ".ssh/" ".pip/" ".cisco/" ".fb-sks-agent/" ".dropbox/" "Public/" ".bash_sessions/" ".cups/" ".vscode-fb-mkt/" ".node_repl_history" ".emacs.d/" "dotfiles_old/" ".zshrc.omz-uninstalled-2021-02-28_20-56-16" "..zshrc" ".matplotlib/" ".zshrc.omz-uninstalled-2021-02-28_21-19-10" "Library/" "Desktop/" ".ipython/" ".vscode-working-sets.json" ".zsh_history" ".vscode-fb-insiders-mkt/" ".zshrc.omz-uninstalled-2021-02-28_21-20-47" "Pictures/" ".local/" ".zshrc.omz-uninstalled-2021-02-28_21-17-32" ".arcrc" ".zshrc" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-2021-02-28_21-14-30" ".z" ".wget-hsts" ".CFUserTextEncoding" "z.sh" ".yarnrc" "dotfiles/" ".vscode-fb-insiders/" ".zshrc.omz-uninstalled-2021-02-28_21-13-28" ".zshrc.omz-uninstalled-2021-02-28_21-23-20" ".DS_Store" "Ax/" ".scm.sqlite" ".anyconnect" ".vscode-fb/" ".distlib/" "Music/" ".config/" ".zshrc emacs emacs.d" "../" "./")
+
+ ("/Users/lilidworkin/.oh-my-zsh/custom/" (24637 21165 655888 34000) "themes/" "example.zsh" "plugins/" "../" "./")
+
+ ("/Users/lilidworkin/.oh-my-zsh/" (24636 20574 98832 537000) "themes/" "custom/" "LICENSE.txt" ".git/" ".gitpod.yml" "log/" "templates/" "lib/" ".github/" "CONTRIBUTING.md" ".gitignore" "README.md" ".editorconfig" ".gitpod.Dockerfile" "oh-my-zsh.sh" "plugins/" "cache/" "tools/" "CODE_OF_CONDUCT.md" "../" "./")
+
+ ("/Users/lilidworkin/Dropbox/ACTTION/content/" (24598 62159 697078 222000) "home.html~" "publications.html" "adept11.html" "cares.html" "oversight.html" "conceppt.html" "newsletter.html~" "committee.html~" "rreads.html" "aapt.html" "committee.html" "partners.html" "rreact.html" "static/" "scepter.html" "contact_us.html~" "news/" "action11_agenda.html" "acttion14_agenda.pdf" "consortia_collaborations.html" "acttion14_transcript2.pdf" "newsletter-update.html" "alertt.html" "acttion14_transcript1.pdf" "rremit.html" "acttion12.html" "paac.html" "newsletter.html" "workinggroups.html" "newsletter2.html" "organization.html" ".hyde_deps" "otherpartners.html~" "aaapt.html" "action11.html" "acttion12_agenda.html" "acttion14.html" "home.html" "contact_us.html" "adept11_agenda.html" "../" "./")
+
+ ("/Users/lilidworkin/.oh-my-zsh/custom/plugins/example/" (24636 20573 981099 868000) "example.plugin.zsh" "../" "./")
+
  ("/Users/lilidworkin/Ax/" (24529 6327 229798 621000) "Pipfile.lock" ".git/" "tutorials/" ".github/" "scripts/" "sphinx/" "CONTRIBUTING.md" ".gitignore" "setup.py" "Pipfile" "env/" "README.md" "docs/" "website/" "pyproject.toml" "CHANGELOG.md" "LICENSE" "pytest.ini" ".DS_Store" "ax/" ".flake8" "CODE_OF_CONDUCT.md" "../" "./")
 
- ("/Users/lilidworkin/dotfiles/" (24635 46407 765506 619000) ".git/" ".emacs" ".gitignore" "README.md" ".emacs.d/" "makesymlinks.sh" ".zshrc" "../" "./")
-
- ("/Users/lilidworkin/.oh-my-zsh/custom/plugins/example/" (24635 44294 448072 52000) "example.plugin.zsh" "../" "./")
-
  ("/Users/lilidworkin/.oh-my-zsh/custom/plugins/" (24635 44294 448020 829000) "example/" "../" "./")
-
- ("/Users/lilidworkin/.oh-my-zsh/custom/" (24635 44294 448181 463000) "themes/" "example.zsh" "plugins/" "../" "./")
-
- ("/Users/lilidworkin/.oh-my-zsh/" (24635 44294 575492 277000) "themes/" "custom/" "LICENSE.txt" ".git/" ".gitpod.yml" "log/" "templates/" "lib/" ".github/" "CONTRIBUTING.md" ".gitignore" "README.md" ".editorconfig" ".gitpod.Dockerfile" "oh-my-zsh.sh" "plugins/" "cache/" "tools/" "CODE_OF_CONDUCT.md" "../" "./")
-
- ("/Users/lilidworkin/" (24635 44638 705265 189000) ".#.zshrc" ".viminfo" ".buckconfig.d/" ".bash_history" ".putty/" ".gitconfig" ".aws/" ".cache/" ".python_history" "Downloads/" ".oh-my-zsh/" ".vscode_is_microsoft_remoting" "Documents/" ".Trash/" "Dropbox/" ".zcompdump-lilidworkin-mbp (2)-5.7.1" "Applications/" ".emacs" "Movies/" ".ssh/" ".pip/" "growprogress/" ".cisco/" ".fb-sks-agent/" ".dropbox/" "Public/" ".bash_sessions/" ".cups/" ".vscode-fb-mkt/" ".node_repl_history" ".emacs.d/" "dotfiles_old/" ".matplotlib/" "Library/" "Desktop/" ".ipython/" ".vscode-working-sets.json" ".zsh_history" ".vscode-fb-insiders-mkt/" "Pictures/" ".local/" ".arcrc" ".zshrc" ".zshrc.pre-oh-my-zsh" ".z" ".wget-hsts" ".CFUserTextEncoding" "z.sh" ".yarnrc" "dotfiles/" ".vscode-fb-insiders/" ".DS_Store" "Ax/" ".scm.sqlite" ".anyconnect" ".vscode-fb/" ".distlib/" "Music/" ".config/" "../" "./")
 
  ("/socratic/golang/src/github.com/socraticorg/highlight/" (22205 63677 0 0) "index9_files/" "index9.html" "index8_files/" "index8.html" "index7_files/" "index7.html" "index6_files/" "index6.html" "index5_files/" "index5.html" "index4_files/" "index4.html" "index3_files/" "index3.html" "index2_files/" "index2.html" "index12_files/" "index12.html" "index11_files/" "index11.html" "index10_files/" "index10.html" "index.html" ".#webview.js" "../" "./")
 
@@ -333,8 +335,6 @@
  ("/Users/lilidworkin/my-socratic/atom/server/migrations/" (22200 63383 0 0) "done/" "__init__.pyc" "__init__.py" ".DS_Store" "../" "./")
 
  ("/Users/lilidworkin/my-socratic/atom/static/scripts/common/models/" (22200 60948 0 0) "video.js" "user.js" "topic.js" "search_results.js" "scratchpad.js" "question.js" "question-search-manager.js" "potential-question-keyword.js" "moderation.js" "lesson.js" "flag.js" "event.js" "course.js" "comment.js" "collection.js" "chapter.js" "answer.js" "../" "./")
-
- ("/Users/lilidworkin/Dropbox/ACTTION/content/" (22200 819 0 0) "workinggroups.html" "static/" "rremit.html" "rreads.html" "rreact.html" "publications.html" "partners.html" "paac.html" "otherpartners.html~" "organization.html" "newsletter2.html" "newsletter.html~" "newsletter.html" "newsletter-update.html" "news/" "home.html~" "home.html" "contact_us.html" "consortia_collaborations.html" "committee.html" "cares.html" "alertt.html" "advisors.html" "adept11_agenda.html" "adept11.html" "acttion14_transcript2.pdf" "acttion14_transcript1.pdf" "acttion14_agenda.pdf" "acttion14.html" "acttion12_agenda.html" "acttion12.html" "action11_agenda.html" "action11.html" "aapt.html" ".hyde_deps" ".DS_Store" "../" "./")
 
  ("/Users/lilidworkin/my-socratic/atom/server/templates/common/" (22200 60948 0 0) "util/" "user_settings.html" "user_history.html" "typekit.html" "suspension.html" "static_pages/" "snippets/" "sentry.html" "notifications.html" "new_relic_browser.html" "modals/" "mathjax_config.html" "legal/" "google_analytics.html" "email_action_taken.html" "edmodo/" "deactivated_account.html" "csrf_protection.html" "course_request_page.html" "conversation.html" "close_window.html" "baseModal.html" "base_html_vars.html" "base_html_meta_tags.html" "app_init.html" "analytics.html" ".DS_Store" "../" "./")
 
