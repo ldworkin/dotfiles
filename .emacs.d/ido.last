@@ -184,6 +184,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/lilidworkin/dotfiles/"
  "/Users/lilidworkin/dotfiles/"
  "/Users/lilidworkin/.oh-my-zsh/custom/"
  "/Users/lilidworkin/.oh-my-zsh/custom/plugins/example/"
@@ -233,17 +234,16 @@
  "/Users/lilidworkin/my-socratic/atom/static/scripts/"
  "/Users/lilidworkin/my-socratic/atom/static/scripts/common/views/"
  "/Users/lilidworkin/my-socratic/atom/server/templates/desktop/contractor/"
- "/Users/lilidworkin/my-socratic/atom/server/templates/mobile/moderation/"
 )
 
 ;; ----- ido-work-file-list -----
 (
  "setup.zsh"
+ ".zshrc"
  "functions.zsh"
  "custom.zsh"
  "aliases.zsh"
  "example.zsh"
- ".zshrc"
  "makesymlinks.sh"
  "README.md"
  "example.plugin.zsh"
@@ -252,6 +252,8 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/lilidworkin/dotfiles/" (24637 25229 39687 581000) "setup.zsh" "functions.zsh" "aliases.zsh" "README.md" ".zshrc" ".gitignore" ".emacs.d/" ".emacs" ".git/" "../" "./")
+
  ("/Users/lilidworkin/dotfiles/" (24637 21480 370276 958000) ".git/" ".emacs" "functions.zsh" ".gitignore" "custom.zsh" "README.md" ".emacs.d/" ".zshrc" "setup.zsh" "aliases.zsh" "../" "./")
 
  ("/Users/lilidworkin/" (24637 21167 371369 384000) ".zshrc.omz-uninstalled-2021-02-28_21-11-21" ".zshrc.omz-uninstalled-2021-02-28_21-09-48" ".viminfo" ".buckconfig.d/" ".bash_history" ".putty/" ".gitconfig" ".aws/" ".cache/" ".python_history" "Downloads/" ".oh-my-zsh/" ".vscode_is_microsoft_remoting" "Documents/" ".Trash/" "Dropbox/" ".zcompdump-lilidworkin-mbp (2)-5.7.1" "Applications/" ".emacs" "Movies/" ".ssh/" ".pip/" ".cisco/" ".fb-sks-agent/" ".dropbox/" "Public/" ".bash_sessions/" ".cups/" ".vscode-fb-mkt/" ".node_repl_history" ".emacs.d/" "dotfiles_old/" ".zshrc.omz-uninstalled-2021-02-28_20-56-16" "..zshrc" ".matplotlib/" ".zshrc.omz-uninstalled-2021-02-28_21-19-10" "Library/" "Desktop/" ".ipython/" ".vscode-working-sets.json" ".zsh_history" ".vscode-fb-insiders-mkt/" ".zshrc.omz-uninstalled-2021-02-28_21-20-47" "Pictures/" ".local/" ".zshrc.omz-uninstalled-2021-02-28_21-17-32" ".arcrc" ".zshrc" ".zshrc.pre-oh-my-zsh" ".zshrc.omz-uninstalled-2021-02-28_21-14-30" ".z" ".wget-hsts" ".CFUserTextEncoding" "z.sh" ".yarnrc" "dotfiles/" ".vscode-fb-insiders/" ".zshrc.omz-uninstalled-2021-02-28_21-13-28" ".zshrc.omz-uninstalled-2021-02-28_21-23-20" ".DS_Store" "Ax/" ".scm.sqlite" ".anyconnect" ".vscode-fb/" ".distlib/" "Music/" ".config/" ".zshrc emacs emacs.d" "../" "./")
@@ -449,8 +451,6 @@
  ("/Users/lilidworkin/my-socratic/atom/static/styles/scss/_modals/" (22159 58103 0 0) "_markdown_link_adder.scss" "_mark_as_duplicate_modal.scss" "_how_to_add_symbols_modal.scss" "_how_to_add_graph_modal.scss" "_course_preferences_modal.scss" "_become_founder_modal.scss" "_ask_question_modal.scss" "_applied_founder_modal.scss" "../" "./")
 
  ("/socratic/golang/src/github.com/socraticorg/apiv2/config/" (22159 57362 0 0) "s3.rb" "deploy.rb" "deploy/" "../" "./")
-
- ("/Users/lilidworkin/Dropbox/Personal/Code/matasano/" (22153 27373 0 0) "set2.py" "set1.py" "8.txt" "7.txt" "6.txt" "4.txt" "10.txt" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
