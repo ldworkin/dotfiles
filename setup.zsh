@@ -4,6 +4,7 @@
 # 1) Switch shell to zsh
 # 2) Create a custom.zsh file in the dotfiles directory
 # (this is where host-specific aliases et. al. will go)
+# 3) Make directory ~/zsh_custom
 
 # This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
 # credit: http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/
@@ -37,6 +38,6 @@ done
 
 # move custom zsh files to oh-my-zsh custom directory
 for file in $custom_zsh_files; do
-    echo "Creating symlink to $file in $zsh_custom"
+    echo "Creating symlink to $file in $ZSH_CUSTOM"
     ln -s $dir/$file $ZSH_CUSTOM/$file
 done
