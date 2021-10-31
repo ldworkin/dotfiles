@@ -181,6 +181,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/lilidworkin/dotfiles/"
  "/Users/lilidworkin/"
  "/"
  "/socratic/golang/src/github.com/socraticorg/highlight/"
@@ -230,7 +231,6 @@
  "/Users/lilidworkin/my-socratic/atom/server/templates/mobile/moderation/"
  "/Users/lilidworkin/my-socratic/atom/ignored_files/mobile/"
  "/socratic/golang/src/github.com/socraticorg/apiv2/config/"
- "/Users/lilidworkin/my-socratic/atom/ignored_files/web/"
 )
 
 ;; ----- ido-work-file-list -----
@@ -249,7 +249,7 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/lilidworkin/dotfiles/" (22211 19239 0 0) "README.md" "makesymlinks.sh" ".gitignore" ".git/" ".emacs.d/" ".emacs" ".DS_Store" ".bashrc" ".bash_profile" "../" "./")
+ ("/Users/lilidworkin/dotfiles/" (24957 56589 507481 953000) ".bash_profile" ".git/" ".emacs" ".gitignore" "README.md" ".emacs.d/" "makesymlinks.sh" ".bashrc" "../" "./")
 
  ("/Users/lilidworkin/" (22211 19209 0 0) "z.sh" "web_searches.csv" "web_search_results.csv" "VirtualBox VMs/" "Public/" "pinterest.py" "Pictures/" "ocr_results.csv" "nltk_data/" "my_csvs/" "my-socratic/" "Music/" "Movies/" "Library/" "images.csv" "Dropbox/" "Downloads/" "dotfiles/" "Documents/" "devices.csv" "Desktop/" "daily_stats.csv" "Applications/" "active_devices.csv" ".zshrc" ".zlogin" ".z" ".Xauthority" ".vnc/" ".virtualenvs/" ".viminfo" ".vagrant.d/" ".Trash/" ".subversion/" ".ssh/" ".sqlite_history" ".rvm/" ".rnd" ".psql_history" ".profile" ".pgpass" ".npm/" ".node-gyp/" ".network_backups/" ".netrc" ".mongorc.js" ".modulus/" ".mkshrc" ".meteorsession" ".meteor/" ".matplotlib/" ".matlab/" ".local/" ".lesshst" ".ipython/" ".htoprc" ".heroku/" ".gradle/" ".gitconfig" ".gem/" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".distlib/" ".dbshell" ".cups/" ".cordova/" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".android/" "../" "./")
 
