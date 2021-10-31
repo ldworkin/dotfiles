@@ -8,8 +8,8 @@ G='\[\e[00;32m\]'
 export PS1="${B}\u${N}@${G}\h${N}:${R}\w${N}\$ "
 
 # ls after cd
-function cd() { 
-    builtin cd "$@" && ls; 
+function cd() {
+    builtin cd "$@" && ls;
 }
 
 # https://github.com/rupa/z
@@ -18,3 +18,4 @@ function cd() {
 # aliases
 alias Emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
 
+export BASH_SILENCE_DEPRECATION_WARNING=1

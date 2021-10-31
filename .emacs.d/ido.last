@@ -2,6 +2,10 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/lilidworkin/Desktop/personal/" . "resume/")
+ ("/Users/lilidworkin/.oh-my-zsh/custom/plugins/" . "example/")
+ ("/Users/lilidworkin/.oh-my-zsh/custom/" . "plugins/")
+ ("/Users/lilidworkin/.oh-my-zsh/" . "custom/")
  ("/Users/lilidworkin/my-socratic/atom/ignored_files/mobile/" . "highlight/")
  ("/socratic/golang/src/github.com/socraticorg/apiv2/static/scripts/" . "external/")
  ("/socratic/golang/src/github.com/socraticorg/apiv2/static/" . "scripts/")
@@ -155,7 +159,7 @@
  ("/Users/lilidworkin/Desktop/angular-flask/angular_flask/static/" . "js/")
  ("/Users/lilidworkin/Desktop/angular-flask/angular_flask/" . "templates/")
  ("/Users/lilidworkin/Desktop/angular-flask/" . "angular_flask/")
- ("/Users/lilidworkin/Desktop/" . "partone/")
+ ("/Users/lilidworkin/Desktop/" . "personal/")
  ("/Users/lilidworkin/Dropbox/MSR/web-basic-samples/type-a-number-js/" . "js/")
  ("/Users/lilidworkin/Dropbox/Personal/Github/pinscape/" . "static/")
  ("/Users/lilidworkin/Dropbox/MLTrading/" . "note/")
@@ -167,7 +171,7 @@
  ("/Users/lilidworkin/dotfiles/.emacs.d/elpa/" . "yasnippet-0.8.0/")
  ("/Users/lilidworkin/dotfiles/.emacs.d/" . "elpa/")
  ("/Users/lilidworkin/dotfiles/" . ".emacs.d/")
- ("/Users/lilidworkin/" . "my-socratic/")
+ ("/Users/lilidworkin/" . "dotfiles/")
  ("/Users/lilidworkin/Dropbox/trading/" . "rolling/")
  ("/Users/lilidworkin/Dropbox/trading/notes/" . "note10/")
  ("/Users/lilidworkin/Dropbox/Personal/Github/" . "meteor-food-diary/")
@@ -183,6 +187,11 @@
 (
  "/Users/lilidworkin/dotfiles/"
  "/Users/lilidworkin/"
+ "/Users/lilidworkin/Desktop/personal/resume/"
+ "/Users/lilidworkin/Downloads/MATRIX2/"
+ "/Users/lilidworkin/zsh_custom/"
+ "/Users/lilidworkin/.oh-my-zsh/custom/"
+ "/Users/lilidworkin/.oh-my-zsh/custom/plugins/example/"
  "/"
  "/socratic/golang/src/github.com/socraticorg/highlight/"
  "/socratic/golang/src/github.com/socraticorg/apiv2/search/"
@@ -226,32 +235,53 @@
  "/Users/lilidworkin/my-socratic/atom/server/templates/common/"
  "/Users/lilidworkin/my-socratic/atom/static/scripts/common/"
  "/Users/lilidworkin/my-socratic/atom/static/scripts/"
- "/Users/lilidworkin/my-socratic/atom/static/scripts/common/views/"
- "/Users/lilidworkin/my-socratic/atom/server/templates/desktop/contractor/"
- "/Users/lilidworkin/my-socratic/atom/server/templates/mobile/moderation/"
- "/Users/lilidworkin/my-socratic/atom/ignored_files/mobile/"
- "/socratic/golang/src/github.com/socraticorg/apiv2/config/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ ".bashrc"
+ ".zshrc"
+ ".bash_profile"
  ".emacs"
- "index12.html"
- "index11.html"
- "main.go"
- "reader_modes.go"
- "README.md"
- "qa_page.html"
- "qa_page_answer.html"
- "index10.html"
- "topic_page.html"
+ "resume.tex"
+ "resume.log"
+ "secrets.py"
+ "openweather_graphics.py"
+ "aliases.zsh"
+ "custom.zsh"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/lilidworkin/dotfiles/" (24957 56589 507481 953000) ".bash_profile" ".git/" ".emacs" ".gitignore" "README.md" ".emacs.d/" "makesymlinks.sh" ".bashrc" "../" "./")
+ ("/Users/lilidworkin/dotfiles/" (24957 56668 930683 96000) ".bash_profile" ".git/" ".emacs" ".gitignore" "README.md" ".emacs.d/" "makesymlinks.sh" ".bashrc" "../" "./")
 
- ("/Users/lilidworkin/" (22211 19209 0 0) "z.sh" "web_searches.csv" "web_search_results.csv" "VirtualBox VMs/" "Public/" "pinterest.py" "Pictures/" "ocr_results.csv" "nltk_data/" "my_csvs/" "my-socratic/" "Music/" "Movies/" "Library/" "images.csv" "Dropbox/" "Downloads/" "dotfiles/" "Documents/" "devices.csv" "Desktop/" "daily_stats.csv" "Applications/" "active_devices.csv" ".zshrc" ".zlogin" ".z" ".Xauthority" ".vnc/" ".virtualenvs/" ".viminfo" ".vagrant.d/" ".Trash/" ".subversion/" ".ssh/" ".sqlite_history" ".rvm/" ".rnd" ".psql_history" ".profile" ".pgpass" ".npm/" ".node-gyp/" ".network_backups/" ".netrc" ".mongorc.js" ".modulus/" ".mkshrc" ".meteorsession" ".meteor/" ".matplotlib/" ".matlab/" ".local/" ".lesshst" ".ipython/" ".htoprc" ".heroku/" ".gradle/" ".gitconfig" ".gem/" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".distlib/" ".dbshell" ".cups/" ".cordova/" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".android/" "../" "./")
+ ("/Users/lilidworkin/" (24957 56737 506816 482000) ".zsh_sessions/" ".viminfo" ".buckconfig.d/" ".bash_history" ".putty/" ".gitconfig" ".aws/" ".cache/" ".python_history" "Downloads/" ".oh-my-zsh/" ".vscode_is_microsoft_remoting" ".bash_profile" "Documents/" ".npm/" ".buckaemon/" ".jupyter/" ".Trash/" "Dropbox/" ".zcompdump-lilidworkin-mbp (2)-5.7.1" "Applications/" ".emacs" "Movies/" ".ssh/" ".pip/" ".cisco/" ".fb-sks-agent/" ".dropbox/" "Public/" ".bash_sessions/" ".cups/" ".vscode-fb-mkt/" ".node_repl_history" ".emacs.d/" ".ondemand/" "dotfiles_old/" ".oracle_jre_usage/" "..zshrc" ".matplotlib/" "Library/" "Desktop/" "z.sh.1" ".ipython/" ".vscode-working-sets.json" ".zsh_history" ".vscode-fb-insiders-mkt/" "Pictures/" ".local/" ".arcrc" ".bashrc" ".z" ".wget-hsts" ".CFUserTextEncoding" "z.sh" ".yarnrc" "dotfiles/" ".vscode-fb-insiders/" ".DS_Store" ".scm.sqlite" ".anyconnect" ".vscode-fb/" ".distlib/" ".docker/" "Music/" ".config/" ".zcompdump-lilidworkin-mbp (2)-5.8" "../" "./")
+
+ ("/Users/lilidworkin/Desktop/" (24940 10824 804132 171000) "Screen Shot 2021-10-13 at 10.10.02 PM.png" "Screen Shot 2021-10-14 at 4.11.11 PM.png" "pharmaka/" "Screen Shot 2021-10-14 at 4.54.36 PM.png" "Relocated Items.nosync/" ".localized" ".DS_Store" "Ax/" "personal/" "needless/" "../" "./")
+
+ ("/Users/lilidworkin/Desktop/personal/" (24926 22699 2866 515000) "Screen Shot 2021-10-04 at 4.40.16 PM.png" "Screen Shot 2021-10-04 at 3.37.14 PM.png" "cover letter/" "texput.log" "resume/" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/Desktop/personal/resume/" (24941 21156 617652 624000) "resume.log" "resume.aux" "lilidworkin.pdf" "old/" "resume.pdf" "resume.out" "resume.tex" "../" "./")
+
+ ("/Users/lilidworkin/Downloads/MATRIX2/" (24746 53786 0 0) "boot_out.txt" "weather-icons.bmp" "fonts/" ".metadata_never_index" "lib/" "secrets.py" ".fseventsd/" "openweather_graphics.py" "code.py" "../" "./")
+
+ ("/Users/lilidworkin/test/" (24637 40363 476417 533000) "env/" "../" "./")
+
+ ("/Users/lilidworkin/dotfiles/.emacs.d/" (24637 39866 944413 318000) "backups/" "autosaves/" "elpa/" "matlab-emacs/" "request/" "files/" ".emacs.d/" "ido.last" "../" "./")
+
+ ("/Users/lilidworkin/zsh_custom/" (24637 25847 624171 608000) "functions.zsh" "custom.zsh" "aliases.zsh" "../" "./")
+
+ ("/Users/lilidworkin/.oh-my-zsh/custom/" (24637 21165 655888 34000) "themes/" "example.zsh" "plugins/" "../" "./")
+
+ ("/Users/lilidworkin/.oh-my-zsh/" (24636 20574 98832 537000) "themes/" "custom/" "LICENSE.txt" ".git/" ".gitpod.yml" "log/" "templates/" "lib/" ".github/" "CONTRIBUTING.md" ".gitignore" "README.md" ".editorconfig" ".gitpod.Dockerfile" "oh-my-zsh.sh" "plugins/" "cache/" "tools/" "CODE_OF_CONDUCT.md" "../" "./")
+
+ ("/Users/lilidworkin/Dropbox/ACTTION/content/" (24598 62159 697078 222000) "home.html~" "publications.html" "adept11.html" "cares.html" "oversight.html" "conceppt.html" "newsletter.html~" "committee.html~" "rreads.html" "aapt.html" "committee.html" "partners.html" "rreact.html" "static/" "scepter.html" "contact_us.html~" "news/" "action11_agenda.html" "acttion14_agenda.pdf" "consortia_collaborations.html" "acttion14_transcript2.pdf" "newsletter-update.html" "alertt.html" "acttion14_transcript1.pdf" "rremit.html" "acttion12.html" "paac.html" "newsletter.html" "workinggroups.html" "newsletter2.html" "organization.html" ".hyde_deps" "otherpartners.html~" "aaapt.html" "action11.html" "acttion12_agenda.html" "acttion14.html" "home.html" "contact_us.html" "adept11_agenda.html" "../" "./")
+
+ ("/Users/lilidworkin/.oh-my-zsh/custom/plugins/example/" (24636 20573 981099 868000) "example.plugin.zsh" "../" "./")
+
+ ("/Users/lilidworkin/Ax/" (24529 6327 229798 621000) "Pipfile.lock" ".git/" "tutorials/" ".github/" "scripts/" "sphinx/" "CONTRIBUTING.md" ".gitignore" "setup.py" "Pipfile" "env/" "README.md" "docs/" "website/" "pyproject.toml" "CHANGELOG.md" "LICENSE" "pytest.ini" ".DS_Store" "ax/" ".flake8" "CODE_OF_CONDUCT.md" "../" "./")
+
+ ("/Users/lilidworkin/.oh-my-zsh/custom/plugins/" (24635 44294 448020 829000) "example/" "../" "./")
 
  ("/socratic/golang/src/github.com/socraticorg/highlight/" (22205 63677 0 0) "index9_files/" "index9.html" "index8_files/" "index8.html" "index7_files/" "index7.html" "index6_files/" "index6.html" "index5_files/" "index5.html" "index4_files/" "index4.html" "index3_files/" "index3.html" "index2_files/" "index2.html" "index12_files/" "index12.html" "index11_files/" "index11.html" "index10_files/" "index10.html" "index.html" ".#webview.js" "../" "./")
 
@@ -321,8 +351,6 @@
 
  ("/Users/lilidworkin/my-socratic/atom/static/scripts/common/models/" (22200 60948 0 0) "video.js" "user.js" "topic.js" "search_results.js" "scratchpad.js" "question.js" "question-search-manager.js" "potential-question-keyword.js" "moderation.js" "lesson.js" "flag.js" "event.js" "course.js" "comment.js" "collection.js" "chapter.js" "answer.js" "../" "./")
 
- ("/Users/lilidworkin/Dropbox/ACTTION/content/" (22200 819 0 0) "workinggroups.html" "static/" "rremit.html" "rreads.html" "rreact.html" "publications.html" "partners.html" "paac.html" "otherpartners.html~" "organization.html" "newsletter2.html" "newsletter.html~" "newsletter.html" "newsletter-update.html" "news/" "home.html~" "home.html" "contact_us.html" "consortia_collaborations.html" "committee.html" "cares.html" "alertt.html" "advisors.html" "adept11_agenda.html" "adept11.html" "acttion14_transcript2.pdf" "acttion14_transcript1.pdf" "acttion14_agenda.pdf" "acttion14.html" "acttion12_agenda.html" "acttion12.html" "action11_agenda.html" "action11.html" "aapt.html" ".hyde_deps" ".DS_Store" "../" "./")
-
  ("/Users/lilidworkin/my-socratic/atom/server/templates/common/" (22200 60948 0 0) "util/" "user_settings.html" "user_history.html" "typekit.html" "suspension.html" "static_pages/" "snippets/" "sentry.html" "notifications.html" "new_relic_browser.html" "modals/" "mathjax_config.html" "legal/" "google_analytics.html" "email_action_taken.html" "edmodo/" "deactivated_account.html" "csrf_protection.html" "course_request_page.html" "conversation.html" "close_window.html" "baseModal.html" "base_html_vars.html" "base_html_meta_tags.html" "app_init.html" "analytics.html" ".DS_Store" "../" "./")
 
  ("/Users/lilidworkin/my-socratic/atom/server/templates/desktop/" (22200 60948 0 0) "why.html" "welcome.html" "util/" "user_settings.html" "user_profile_edit.html" "user_profile.html" "user_history.html" "user_dashboard.html" "topic_videos.html" "topic.html" "teachers.html" "superpowers.html" "snippets/" "sitemap/" "search_page.html" "search_comparison_test_page.html" "scratchpads.html" "scratchpad_edit.html" "scratchpad.html" "questions_page.html" "question_page.html" "password_reset_page.html" "moderation/" "modals/" "lesson_guidelines.html" "legal/" "launch_hq.html" "jobs.html" "heroes.html" "header.html" "footer.html" "featured_answers.html" "faq.html" "extra_credit.html" "empty_queue.html" "email_action_taken.html" "duplicate_question_page.html" "create_or_edit_lesson.html" "course_topics.html" "course_talk.html" "course_request_page.html" "course_page.html" "course_base.html" "contractor/" "content/" "collection.html" "baseModal.html" "base.html" "answer_contributions.html" "admin/" "about_us.html" "500.html" "404.html" ".DS_Store" "../" "./")
@@ -366,8 +394,6 @@
  ("/Users/lilidworkin/my-socratic/atom/server/templates/desktop/snippets/" (22183 39886 0 0) "video_suggestion.html" "video.html" "user_widget.html" "user_classification_pane.html" "user_activity_feed.html" "trending_questions_list.html" "topic_contributions.html" "questions.html" "question_quality_popover.html" "question_page_sidebar.html" "question_page_body.html" "question_list.html" "question.html" "post_answer_prompt.html" "paragraph_feedback_comments.html" "ocr_result.html" "notifications_popup.html" "notifications_list.html" "no_lesson.html" "loading.html" "lesson_list_item.html" "inactive_streak_info.html" "growth_prompts.html" "flag.html" "featured_user.html" "create_lesson_video_in_lesson.html" "create_lesson_video.html" "course_navigation.html" "course_keywords_list.html" "course_flag_types_list.html" "course_chapters_list.html" "contributors_popup.html" "contribution_split.html" "collections_list.html" "breadcrumb_topic.html" "ask_and_answer_questions_buttons.html" "answer_thanks_note.html" "answer_review_pane.html" "answer_paragraph_feedback_popover.html" "answer_moderation_pane.html" "answer_flags.html" "answer_editor.html" "answer.html" "add_to_collection.html" "add_link_typeahead_result.html" "active_streak_info.html" "abuse_moderation_pane.html" "../" "./")
 
  ("/Users/lilidworkin/my-socratic/atom/server/templates/desktop/admin/ocr/" (22186 38022 0 0) "search_comparison_tool.html" "search.html" "root.html" "ocr_results_list.html" "metadata_templates.html" "metadata_links.html" "dashboard.html" "../" "./")
-
- ("/Users/lilidworkin/Desktop/" (22187 26835 0 0) "Younger - Season 1 [HDTV] [x264] - cOOt/" "tv shows.txt" "Tangled (2010) [1080p] {5.1}/" "Screen Shot 2016-01-29 at 8.27.43 AM.png" "rootkey.csv" "lili.pem" "invoice.doc" "expenses.ods" "annoyances.txt" "54.175.151.59.rdp" "52.34.26.17.rdp" ".localized" ".DS_Store" ".#pin.py" "../" "./")
 
  ("/Users/lilidworkin/my-socratic/atom/server/util/classify/" (22185 15648 0 0) "math_data.pyc" "math_data.py" "math.pyc" "math.py" "chemistry.pyc" "chemistry.py" "__init__.pyc" "__init__.py" "../" "./")
 
@@ -426,29 +452,6 @@
  ("/Users/lilidworkin/my-socratic/atom/server/util/veal/models/" (22000 28177 0 0) "Word.pyc" "Word.py" "TrainingText.pyc" "TrainingText.py" "Base.pyc" "Base.py" "__init__.pyc" "__init__.py" "../" "./")
 
  ("/Users/lilidworkin/my-socratic/atom/server/util/veal/" (22000 28177 0 0) "word_lists/" "veal_util.pyc" "veal_util.py" "requirements.txt" "README.md" "models/" "migrations/" "DatabaseDelegate.pyc" "DatabaseDelegate.py" "data/" "config.pyc" "config.py" "Classifier.pyc" "Classifier.py" "__init__.pyc" "__init__.py" "../" "./")
-
- ("/Users/" (21676 6498 0 0) "Shared/" "lilidworkin/" ".localized" "../" "./")
-
- ("/Users/lilidworkin/Dropbox/ACTTION/layout/" (22161 32510 0 0) "base.j2~" "base.j2" "../" "./")
-
- ("/Users/lilidworkin/my-socratic/atom/server/settings/" (22159 58103 0 0) "README.md" "keys/" "encrypted_settings.json" "encrypt_json_file.py" "__init__.pyc" "__init__.py" "../" "./")
-
- ("/Users/lilidworkin/my-socratic/atom/static/styles/scss/_modals/" (22159 58103 0 0) "_markdown_link_adder.scss" "_mark_as_duplicate_modal.scss" "_how_to_add_symbols_modal.scss" "_how_to_add_graph_modal.scss" "_course_preferences_modal.scss" "_become_founder_modal.scss" "_ask_question_modal.scss" "_applied_founder_modal.scss" "../" "./")
-
- ("/socratic/golang/src/github.com/socraticorg/apiv2/config/" (22159 57362 0 0) "s3.rb" "deploy.rb" "deploy/" "../" "./")
-
- ("/Users/lilidworkin/Dropbox/Personal/Code/matasano/" (22153 27373 0 0) "set2.py" "set1.py" "8.txt" "7.txt" "6.txt" "4.txt" "10.txt" "../" "./")
-
- ("/socratic/golang/src/github.com/socraticorg/apiv2/templates/" (22138 51785 0 0) "reader/" "../" "./")
-
- ("/Users/lilidworkin/Dropbox/" (22140 39479 0 0) "Trading/" "SPECTRUM (1)/" "Spectrum/" "Research/" "Rankings/" "Personal/" "Penn/" "networked_life/" "MSR/" "MLTrading/" "LongRunPD/" "IMMPACT/" "Icon
-" "ContagionExperiments/" "Collective Memorization/" "BehavioralExp/" "ATT/" "ACTTION/" "1Password/" ".ws.agile.1Password.settings" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
-
- ("/Users/lilidworkin/Dropbox/Personal/" (22116 60578 0 0) "SF Blog/" "School/" "resume-industry2/" "resume-industry/" "resume/" "Pictures/" "Old/" "Logos/" "Jobs/" "Interviews/" "Github/" "Gimp/" "FasterTimes/" "debatably/" "Codecademy/" "Code/" "Apartments/" ".DS_Store" "../" "./")
-
- ("/Users/lilidworkin/Dropbox/Personal/Code/" (22151 24193 0 0) "tv.py" "tutorial-generator/" "turnin/" "stockfighter/" "source_syncing/" "quotes/" "quoteboard/" "portfolio/" "oldprojects/" "matasano/" "lilianne/" "interviews/" "IMMPACT/" "GraphColoring/" "euler/" "desugar/" "c/" ".DS_Store" "../" "./")
-
- ("/Users/lilidworkin/Dropbox/Personal/Code/stockfighter/" (22151 24827 0 0) "stockfighter.py" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
