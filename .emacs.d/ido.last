@@ -1,0 +1,455 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/lilidworkin/my-socratic/atom/ignored_files/mobile/" . "highlight/")
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/static/scripts/" . "external/")
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/static/" . "scripts/")
+ ("/Users/lilidworkin/my-socratic/atom/init/" . "api/")
+ ("/Users/lilidworkin/my-socratic/atom/config/" . "deploy/")
+ ("/Users/lilidworkin/my-socratic/atomdev/puppet/modules/elasticsearch/" . "manifests/")
+ ("/Users/lilidworkin/my-socratic/atomdev/puppet/modules/" . "elasticsearch/")
+ ("/Users/lilidworkin/my-socratic/atomdev/puppet/" . "modules/")
+ ("/Users/lilidworkin/my-socratic/atomdev/" . "puppet/")
+ ("/Users/lilidworkin/my-socratic/atom/static/data/" . "geo/")
+ ("/Users/lilidworkin/my-socratic/atom/server/util/veal/" . "models/")
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/templates/" . "reader/")
+ ("/Users/lilidworkin/Dropbox/Personal/Code/" . "matasano/")
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/config/" . "deploy/")
+ ("/Users/lilidworkin/my-socratic/atom/ignored_files/" . "mobile/")
+ ("/socratic/golang/src/github.com/socraticorg/" . "highlight/")
+ ("/socratic/golang/src/github.com/" . "socraticorg/")
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/" . "search/")
+ ("/socratic/go/src/github.com/" . "socraticorg/")
+ ("/socratic/go/src/" . "github.com/")
+ ("/socratic/go/" . "src/")
+ ("/socratic/" . "go/")
+ ("/" . "Users/")
+ ("/socratic/go/src/github.com/socraticorg/apiv2/" . "query/")
+ ("/socratic/go/src/github.com/socraticorg/" . "apiv2/")
+ ("/Users/lilidworkin/my-socratic/atom/server/handlers/" . "ab_tests/")
+ ("/Users/lilidworkin/my-socratic/atom/static/scripts/external/" . "MathJax/")
+ ("/Users/lilidworkin/my-socratic/atom/server/util/" . "classify/")
+ ("/Users/lilidworkin/my-socratic/atom/server/templates/desktop/admin/" . "ocr/")
+ ("/Users/" . "lilidworkin/")
+ ("/Users/lilidworkin/my-socratic/atom/static/styles/" . "scss/")
+ ("/Users/lilidworkin/my-socratic/atom/static/styles/scss/" . "mobile/")
+ ("/Users/lilidworkin/my-socratic/atom/server/migrations/" . "done/")
+ ("/Users/lilidworkin/my-socratic/atom/server/templates/mobile/" . "snippets/")
+ ("/Users/lilidworkin/my-socratic/atom/static/scripts/common/" . "data/")
+ ("/Users/lilidworkin/my-socratic/atom/static/scripts/mobile/" . "views/")
+ ("/Users/lilidworkin/my-socratic/atom/server/templates/desktop/" . "util/")
+ ("/Users/lilidworkin/my-socratic/atom/server/templates/common/" . "util/")
+ ("/Users/lilidworkin/my-socratic/atom/server/templates/" . "common/")
+ ("/Users/lilidworkin/my-socratic/atom/static/scripts/desktop/" . "views/")
+ ("/Users/lilidworkin/my-socratic/atom/static/scripts/" . "common/")
+ ("/Users/lilidworkin/my-socratic/atom/static/" . "scripts/")
+ ("/Users/lilidworkin/my-socratic/atom/server/" . "tests/")
+ ("/Users/lilidworkin/my-socratic/atom/" . "ignored_files/")
+ ("/Users/lilidworkin/my-socratic/" . "atom/")
+ ("/Users/lilidworkin/Socratic/atom/server/migrations/" . "done/")
+ ("/Users/lilidworkin/Socratic/atom/server/templates/mobile/" . "snippets/")
+ ("/Users/lilidworkin/Socratic/atom/static/styles/scss/" . "_modals/")
+ ("/Users/lilidworkin/Socratic/atom/.git/" . "hooks/")
+ ("/Users/lilidworkin/Socratic/atom/static/styles/" . "scss/")
+ ("/Users/lilidworkin/Socratic/atom/server/templates/desktop/admin/" . "add_questions/")
+ ("/Users/lilidworkin/Socratic/atomdev/" . "config/")
+ ("/Users/lilidworkin/Socratic/atom/static/scripts/desktop/views/" . "paragraph-feedback/")
+ ("/Users/lilidworkin/Socratic/atom/init/" . "sandbox/")
+ ("/Users/lilidworkin/Socratic/atom/static/scripts/mobile/" . "views/")
+ ("/Users/lilidworkin/Socratic/atom/static/scripts/desktop/" . "views/")
+ ("/Users/lilidworkin/Socratic/atom/static/scripts/common/" . "helpers/")
+ ("/Users/lilidworkin/Socratic/atom/static/scripts/" . "common/")
+ ("/Users/lilidworkin/Socratic/atom/static/" . "scripts/")
+ ("/Users/lilidworkin/Socratic/atom/server/templates/common/" . "modals/")
+ ("/Users/lilidworkin/Socratic/atom/server/templates/desktop/" . "snippets/")
+ ("/Users/lilidworkin/Socratic/atom/server/templates/" . "common/")
+ ("/Users/lilidworkin/Socratic/" . "atom/")
+ ("/Users/lilidworkin/Socratic/atom/config/" . "deploy/")
+ ("/Users/lilidworkin/Socratic/atom/server/util/" . "veal/")
+ ("/Users/lilidworkin/Socratic/atom/" . "ignored_files/")
+ ("/Users/lilidworkin/Socratic/atom/server/" . "handlers/")
+ ("/atom/" . "server/")
+ ("/atom/server/" . "handlers/")
+ ("/Users/lilidworkin/Dropbox/MSR/longrun-dev/client/" . "admin/")
+ ("/Users/lilidworkin/Dropbox/MSR/longrun-dev/" . "client/")
+ ("/Users/lilidworkin/turkserver-meteor/" . "docs/")
+ ("/Users/lilidworkin/turkserver-meteor/docs/client/" . "templates/")
+ ("/Users/lilidworkin/turkserver-meteor/docs/" . "client/")
+ ("/Users/lilidworkin/Dropbox/msr/demo/packages/mizzao:turkserver/" . "lib/")
+ ("/Users/lilidworkin/Dropbox/msr/demo/packages/" . "mizzao:turkserver/")
+ ("/Users/lilidworkin/Dropbox/msr/demo/" . "packages/")
+ ("/Users/lilidworkin/Dropbox/msr/longrun-dev/packages/mizzao:turkserver/" . "admin/")
+ ("/Users/lilidworkin/Dropbox/msr/longrun-dev/packages/" . "mizzao:turkserver/")
+ ("/Users/lilidworkin/Dropbox/msr/longrun-dev/client/" . "views/")
+ ("/Users/lilidworkin/Dropbox/msr/longrun-dev/" . "lib/")
+ ("/Users/lilidworkin/Dropbox/msr/meteor-prisoners-dilemma/tests/cucumber/features/" . "step_definitions/")
+ ("/Users/lilidworkin/Dropbox/msr/meteor-prisoners-dilemma/tests/cucumber/" . "features/")
+ ("/Users/lilidworkin/Dropbox/msr/meteor-prisoners-dilemma/tests/" . "cucumber/")
+ ("/Users/lilidworkin/Dropbox/msr/meteor-prisoners-dilemma/packages/mizzao:turkserver/" . "lib/")
+ ("/Users/lilidworkin/Dropbox/msr/meteor-prisoners-dilemma/packages/" . "mizzao:turkserver/")
+ ("/Users/lilidworkin/Dropbox/meteor-noregret/client/" . "views/")
+ ("/Users/lilidworkin/Dropbox/meteor-noregret/" . "models/")
+ ("/Users/lilidworkin/Dropbox/msr/meteor-prisoners-dilemma/client/" . "views/")
+ ("/Users/lilidworkin/Dropbox/msr/meteor-prisoners-dilemma/" . "packages/")
+ ("/Users/lilidworkin/Dropbox/MSR/longrun/client/" . "views/")
+ ("/Users/lilidworkin/Dropbox/MSR/longrun/" . "client/")
+ ("/Users/lilidworkin/Dropbox/debatably/client/" . "views/")
+ ("/Users/lilidworkin/Dropbox/debatably/" . "models/")
+ ("/Users/lilidworkin/Dropbox/Personal/Github/meteor-food-diary/client/" . "views/")
+ ("/Users/lilidworkin/Dropbox/Personal/Github/meteor-food-diary/" . "client/")
+ ("/Users/lilidworkin/Dropbox/msr/longrun/client/" . "views/")
+ ("/Users/lilidworkin/Dropbox/msr/hangwithme/client/" . "views/")
+ ("/Users/lilidworkin/Dropbox/msr/hangwithme/" . "client/")
+ ("/Users/lilidworkin/Dropbox/msr/" . "longrun-dev/")
+ ("/Users/lilidworkin/Dropbox/msr/longrun/" . "lib/")
+ ("/Users/lilidworkin/Dropbox/IMMPACT/content/" . "static/")
+ ("/Users/lilidworkin/Dropbox/msr/turkserver/packages/mizzao:turkserver/mturk/" . "examples/")
+ ("/Users/lilidworkin/Dropbox/msr/turkserver/packages/mizzao:turkserver/" . "client/")
+ ("/Users/lilidworkin/Dropbox/msr/turkserver/packages/" . "mizzao:turkserver/")
+ ("/Users/lilidworkin/Dropbox/msr/turkserver/" . "docs/")
+ ("/Users/lilidworkin/Dropbox/Personal/" . "Github/")
+ ("/Users/lilidworkin/Desktop/partone/server/" . "handlers/")
+ ("/Users/lilidworkin/Desktop/partone/" . "server/")
+ ("/Users/lilidworkin/Desktop/parttwo/static/" . "css/")
+ ("/Users/lilidworkin/Desktop/parttwo/" . "server/")
+ ("/Users/lilidworkin/Desktop/parttwo/server/" . "templates/")
+ ("/Users/lilidworkin/Desktop/ping-master/static/scripts/" . "external/")
+ ("/Users/lilidworkin/Desktop/ping-master/static/" . "scripts/")
+ ("/Users/lilidworkin/Desktop/ping-master/" . "server/")
+ ("/Users/lilidworkin/Desktop/ping-master/server/" . "handlers/")
+ ("/Users/lilidworkin/Downloads/ping-master/server/" . "model/")
+ ("/Users/lilidworkin/Downloads/ping-master/" . "server/")
+ ("/Users/lilidworkin/Dropbox/Personal/Github/pinscape-old/static/" . "js/")
+ ("/Users/lilidworkin/Dropbox/Personal/Github/pinscape-old/" . "templates/")
+ ("/Users/lilidworkin/Dropbox/Personal/Github/pinscape/static/" . "js/")
+ ("/Users/lilidworkin/Dropbox/GraphColoring/graph_coloring/static/" . "js/")
+ ("/Users/lilidworkin/Dropbox/GraphColoring/graph_coloring/" . "static/")
+ ("/Users/lilidworkin/Dropbox/Networks/" . "templates/")
+ ("/Users/lilidworkin/Dropbox/GraphColoring/static/" . "js/")
+ ("/Users/lilidworkin/Dropbox/GraphColoring/" . "graph_coloring/")
+ ("/Users/lilidworkin/Dropbox/Personal/Code/django/beginners-guide-to-django-rest-framework/" . "app/")
+ ("/Users/lilidworkin/Dropbox/Personal/Code/django/" . "beginners-guide-to-django-rest-framework/")
+ ("/Users/lilidworkin/Dropbox/Personal/Code/django/drf/" . "quotes/")
+ ("/Users/lilidworkin/Dropbox/Personal/Code/django/beginners-guide-to-django-rest-framework/app/bookreview/" . "templates/")
+ ("/Users/lilidworkin/Dropbox/Personal/Code/django/beginners-guide-to-django-rest-framework/app/" . "bookreview/")
+ ("/Users/lilidworkin/Dropbox/Personal/Code/django/mysite/polls/templates/" . "polls/")
+ ("/Users/lilidworkin/Dropbox/Personal/Code/django/mysite/polls/" . "templates/")
+ ("/Users/lilidworkin/Dropbox/Personal/Code/django/mysite/templates/" . "admin/")
+ ("/Users/lilidworkin/Dropbox/Personal/Code/django/mysite/" . "polls/")
+ ("/Users/lilidworkin/Dropbox/CampusJob/" . "old/")
+ ("/Users/lilidworkin/Dropbox/IMMPACT/" . "content/")
+ ("/Users/lilidworkin/Dropbox/ACTTION/content/" . "news/")
+ ("/Users/lilidworkin/Dropbox/Rankings/" . "Archive1/")
+ ("/Users/lilidworkin/Dropbox/ACTTION/" . "content/")
+ ("/Users/lilidworkin/Dropbox/MyTrading/notes/" . "note13/")
+ ("/Users/lilidworkin/Desktop/pequod/" . "lib/")
+ ("/Users/lilidworkin/Dropbox/msr/gameapi/gameapi/db_repository/" . "versions/")
+ ("/Users/lilidworkin/Dropbox/msr/gameapi/gameapi/" . "db_repository/")
+ ("/Users/lilidworkin/Dropbox/msr/gameapi/" . "gameapi/")
+ ("/Users/lilidworkin/Dropbox/" . "MSR/")
+ ("/Users/lilidworkin/Dropbox/MSR/angular-flask/angular_flask/static/" . "partials/")
+ ("/Users/lilidworkin/Dropbox/MSR/angular-flask/angular_flask/" . "static/")
+ ("/Users/lilidworkin/Dropbox/MSR/angular-flask/" . "angular_flask/")
+ ("/Users/lilidworkin/Dropbox/MSR/" . "longrun-dev/")
+ ("/Users/lilidworkin/Desktop/angular-flask/angular_flask/static/" . "js/")
+ ("/Users/lilidworkin/Desktop/angular-flask/angular_flask/" . "templates/")
+ ("/Users/lilidworkin/Desktop/angular-flask/" . "angular_flask/")
+ ("/Users/lilidworkin/Desktop/" . "partone/")
+ ("/Users/lilidworkin/Dropbox/MSR/web-basic-samples/type-a-number-js/" . "js/")
+ ("/Users/lilidworkin/Dropbox/Personal/Github/pinscape/" . "static/")
+ ("/Users/lilidworkin/Dropbox/MLTrading/" . "note/")
+ ("/Users/lilidworkin/Dropbox/BehavioralExp/" . "CI/")
+ ("/Users/lilidworkin/Dropbox/networks/static/" . "js/")
+ ("/Users/lilidworkin/Dropbox/networks/" . "static/")
+ ("/Users/lilidworkin/dotfiles/.emacs.d/elpa/yasnippet-0.8.0/snippets/" . "latex-mode/")
+ ("/Users/lilidworkin/dotfiles/.emacs.d/elpa/yasnippet-0.8.0/" . "snippets/")
+ ("/Users/lilidworkin/dotfiles/.emacs.d/elpa/" . "yasnippet-0.8.0/")
+ ("/Users/lilidworkin/dotfiles/.emacs.d/" . "elpa/")
+ ("/Users/lilidworkin/dotfiles/" . ".emacs.d/")
+ ("/Users/lilidworkin/" . "my-socratic/")
+ ("/Users/lilidworkin/Dropbox/trading/" . "rolling/")
+ ("/Users/lilidworkin/Dropbox/trading/notes/" . "note10/")
+ ("/Users/lilidworkin/Dropbox/Personal/Github/" . "meteor-food-diary/")
+ ("/Users/lilidworkin/Dropbox/Personal/Github/v5/" . "css/")
+ ("/Users/lilidworkin/Dropbox/Personal/Code/pinterest/" . "templates/")
+ ("/Users/lilidworkin/Dropbox/Trading/notes/" . "note9/")
+ ("/Users/lilidworkin/Dropbox/Trading/" . "notes/")
+ ("/Users/lilidworkin/Dropbox/Personal/code/oldprojects/" . "ltlfo/")
+ ("/Users/lilidworkin/Dropbox/Personal/code/" . "oldprojects/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/lilidworkin/"
+ "/"
+ "/socratic/golang/src/github.com/socraticorg/highlight/"
+ "/socratic/golang/src/github.com/socraticorg/apiv2/search/"
+ "/socratic/golang/src/github.com/socraticorg/apiv2/reader/"
+ "/socratic/golang/src/github.com/socraticorg/apiv2/"
+ "/socratic/golang/src/github.com/socraticorg/apiv2/templates/reader/"
+ "/socratic/golang/src/github.com/socraticorg/apiv2/util/"
+ "/socratic/golang/src/github.com/socraticorg/apiv2/static/scripts/external/"
+ "/socratic/golang/src/github.com/socraticorg/apiv2/model/"
+ "/Users/lilidworkin/my-socratic/atom/server/tests/"
+ "/Users/lilidworkin/my-socratic/atom/server/util/"
+ "/Users/lilidworkin/my-socratic/atom/server/model/"
+ "/Users/lilidworkin/my-socratic/atom/server/migrations/done/"
+ "/Users/lilidworkin/my-socratic/atom/server/lib/"
+ "/Users/lilidworkin/my-socratic/atom/server/bin/"
+ "/Users/lilidworkin/my-socratic/atom/server/emails/"
+ "/Users/lilidworkin/my-socratic/atom/server/handlers/"
+ "/Users/lilidworkin/my-socratic/atom/static/styles/scss/"
+ "/Users/lilidworkin/my-socratic/atom/static/styles/"
+ "/Users/lilidworkin/my-socratic/atom/server/templates/common/util/"
+ "/Users/lilidworkin/my-socratic/atom/server/templates/desktop/util/"
+ "/Users/lilidworkin/my-socratic/atom/server/templates/desktop/"
+ "/Users/lilidworkin/my-socratic/atom/server/templates/desktop/admin/"
+ "/socratic/golang/src/github.com/socraticorg/apiv2/static/scripts/"
+ "/Users/lilidworkin/Dropbox/ACTTION/content/"
+ "/Users/lilidworkin/my-socratic/atom/static/scripts/common/data/"
+ "/Users/lilidworkin/my-socratic/atom/static/scripts/common/models/"
+ "/socratic/golang/src/github.com/socraticorg/apiv2/ocr/"
+ "/Users/lilidworkin/my-socratic/atom/server/migrations/"
+ "/Users/lilidworkin/my-socratic/atom/static/scripts/desktop/"
+ "/Users/lilidworkin/my-socratic/atom/server/"
+ "/Users/lilidworkin/my-socratic/atom/static/styles/scss/mobile/"
+ "/Users/lilidworkin/my-socratic/atom/server/templates/mobile/"
+ "/Users/lilidworkin/my-socratic/atom/server/templates/common/static_pages/"
+ "/Users/lilidworkin/my-socratic/atom/static/scripts/desktop/views/"
+ "/Users/lilidworkin/my-socratic/atom/server/templates/desktop/content/"
+ "/Users/lilidworkin/my-socratic/atom/server/data/"
+ "/Users/lilidworkin/my-socratic/atom/server/templates/mobile/snippets/"
+ "/Users/lilidworkin/my-socratic/atom/static/scripts/common/helpers/"
+ "/Users/lilidworkin/my-socratic/atom/config/"
+ "/Users/lilidworkin/my-socratic/atom/server/templates/common/"
+ "/Users/lilidworkin/my-socratic/atom/static/scripts/common/"
+ "/Users/lilidworkin/my-socratic/atom/static/scripts/"
+ "/Users/lilidworkin/my-socratic/atom/static/scripts/common/views/"
+ "/Users/lilidworkin/my-socratic/atom/server/templates/desktop/contractor/"
+ "/Users/lilidworkin/my-socratic/atom/server/templates/mobile/moderation/"
+ "/Users/lilidworkin/my-socratic/atom/ignored_files/mobile/"
+ "/socratic/golang/src/github.com/socraticorg/apiv2/config/"
+ "/Users/lilidworkin/my-socratic/atom/ignored_files/web/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "index12.html"
+ "index11.html"
+ "main.go"
+ "reader_modes.go"
+ "README.md"
+ "qa_page.html"
+ "qa_page_answer.html"
+ "index10.html"
+ "topic_page.html"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/lilidworkin/dotfiles/" (22211 19239 0 0) "README.md" "makesymlinks.sh" ".gitignore" ".git/" ".emacs.d/" ".emacs" ".DS_Store" ".bashrc" ".bash_profile" "../" "./")
+
+ ("/Users/lilidworkin/" (22211 19209 0 0) "z.sh" "web_searches.csv" "web_search_results.csv" "VirtualBox VMs/" "Public/" "pinterest.py" "Pictures/" "ocr_results.csv" "nltk_data/" "my_csvs/" "my-socratic/" "Music/" "Movies/" "Library/" "images.csv" "Dropbox/" "Downloads/" "dotfiles/" "Documents/" "devices.csv" "Desktop/" "daily_stats.csv" "Applications/" "active_devices.csv" ".zshrc" ".zlogin" ".z" ".Xauthority" ".vnc/" ".virtualenvs/" ".viminfo" ".vagrant.d/" ".Trash/" ".subversion/" ".ssh/" ".sqlite_history" ".rvm/" ".rnd" ".psql_history" ".profile" ".pgpass" ".npm/" ".node-gyp/" ".network_backups/" ".netrc" ".mongorc.js" ".modulus/" ".mkshrc" ".meteorsession" ".meteor/" ".matplotlib/" ".matlab/" ".local/" ".lesshst" ".ipython/" ".htoprc" ".heroku/" ".gradle/" ".gitconfig" ".gem/" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".distlib/" ".dbshell" ".cups/" ".cordova/" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".android/" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/highlight/" (22205 63677 0 0) "index9_files/" "index9.html" "index8_files/" "index8.html" "index7_files/" "index7.html" "index6_files/" "index6.html" "index5_files/" "index5.html" "index4_files/" "index4.html" "index3_files/" "index3.html" "index2_files/" "index2.html" "index12_files/" "index12.html" "index11_files/" "index11.html" "index10_files/" "index10.html" "index.html" ".#webview.js" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/" (22205 62804 0 0) "util/" "url2png.go" "tesseract/" "templates/" "static/" "settings.json" "settings.go" "secrets.json" "secrets.go" "search/" "route_names.go" "README.md" "reader/" "query/" "package.json" "ocr/" "node_modules/" "model_setup.go" "model/" "middleware_log.go" "middleware_error_handler.go" "metadata/" "main.go" "lib_web_search.go" "lib_story.go" "lib_ocr_result.go" "lib_image.go" "lib_daily_stat.go" "lib_active_devices.go" "leptonica/" "json_response.go" "json_handler.go" "init/" "handler_web_search_results.go" "handler_web_search.go" "handler_test_error.go" "handler_stories.go" "handler_stats.go" "handler_search.go" "handler_revision.go" "handler_reader.go" "handler_ranking_algorithms.go" "handler_query_filters.go" "handler_ocr_results.go" "handler_ocr_post_image.go" "handler_ocr_get_text.go" "handler_helpers.go" "handler_alchemy.go" "Gruntfile.js" "errors.go" "error_types.go" "cron.go" "config/" "cmd/" "Capfile" "app_environment.go" "apiv2" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/static/scripts/" (22205 63584 0 0) "webview.js" "external/" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/search/" (22204 61419 0 0) "video.go" "socratic.go" "search_source.go" "search_ranking_test.go" "search_multi_test.go" "search_multi.go" "search_filter_test.go" "ranking_algorithms.go" "metadata.go" "math.go" "main.go" "google.go" "experiment_cards.go" "client_script.go" "bing.go" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/reader/" (22205 61925 0 0) "reader_yahoo_answers.go" "reader_weegy.go" "reader_test.go" "reader_shmoop.go" "reader_modes.go" "reader_jiskha.go" "reader_enotes.go" "reader_ehow.go" "reader_chacha.go" "reader_brainly.go" "reader_ask_dot_com.go" "reader_answers_dot_com.go" "reader_algebra_dot_com.go" "reader_about_dot_com.go" "main.go" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/static/scripts/external/" (22204 61147 0 0) "highlight.js" "amplitude.js" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/tesseract/" (22120 40095 0 0) "util.go" "test_images/" "tesseract_test.go" "tesseract.go" "iterator.go" "_obj/" ".DS_Store" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/templates/reader/" (22204 45718 0 0) "topic_page.html" "qa_page_answer.html" "qa_page.html" "page_styles.html" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/" (22204 40125 0 0) "raven-go/" "highlight/" "apiv2/" "add_photo.sh" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/ignored_files/mobile/highlight/" (22203 58658 0 0) "webview.js" "index8_files/" "index8.html" "index7_files/" "index7.html" "index6_files/" "index6.html" "index5_files/" "index5.html" "index4_files/" "index4.html" "index3_files/" "index3.html" "index2_files/" "index2.html" "index.html" "highlight.js" ".#webview.js" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/model/" (22204 38491 0 0) "web_search_result_vote.go" "web_search_result.go" "web_search_classification.go" "web_search.go" "story.go" "setup_test.go" "schema.go" "README.md" "ocr_result.go" "migrations/" "image_test.go" "image.go" "device_test.go" "device.go" "db.go" "daily_stats.go" "daily_stat_test.go" "base.go" "active_device_test.go" "active_device.go" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/model/" (22203 49016 0 0) "Video.pyc" "Video.py" "UserSetting.pyc" "UserSetting.py" "UserPasswordReset.pyc" "UserPasswordReset.py" "UserGroup.pyc" "UserGroup.py" "UserBadgeState.pyc" "UserBadgeState.py" "UserBadge.pyc" "UserBadge.py" "User.pyc" "User.py" "Trending.pyc" "Trending.py" "Topic.pyc" "Topic.py" "Suspension.pyc" "Suspension.py" "Streak.pyc" "Streak.py" "Stat.pyc" "Stat.py" "Scratchpad.pyc" "Scratchpad.py" "reset_dev.pyc" "reset_dev.py" "Redirect.pyc" "Redirect.py" "QuestionView.pyc" "QuestionView.py" "Question.pyc" "Question.py" "ProspectiveContributor.pyc" "ProspectiveContributor.py" "ProfilePic.pyc" "ProfilePic.py" "PotentialQuestionKeyword.pyc" "PotentialQuestionKeyword.py" "PotentialQuestion.pyc" "PotentialQuestion.py" "postgres.pyc" "postgres.py" "Point.pyc" "Point.py" "ParagraphFeedback.pyc" "ParagraphFeedback.py" "OldComment.py" "mosql.py" "mongo_collections.pyc" "mongo_collections.py" "ModerationResult.pyc" "ModerationResult.py" "MockDatabase.pyc" "MockDatabase.py" "Lesson.pyc" "Lesson.py" "InviteCode.pyc" "InviteCode.py" "Follow.pyc" "Flag.pyc" "Flag.py" "Feed.pyc" "Feed.py" "FeaturedUser.pyc" "FeaturedUser.py" "FeaturedTopicQuestion.pyc" "FeaturedTopicQuestion.py" "Experiment.pyc" "Event.pyc" "Event.py" "Edmodo.pyc" "Edmodo.py" "Edit.pyc" "Edit.py" "DailyStat.pyc" "DailyStat.py" "create_indexes.pyc" "create_indexes.py" "CourseRequest.pyc" "CourseRequest.py" "Course.pyc" "Course.py" "Counter.pyc" "Counter.py" "Comment.pyc" "Comment.py" "CollectionContent.pyc" "CollectionContent.py" "Collection.pyc" "Collection.py" "Chapter.pyc" "Chapter.py" "base.pyc" "base.py" "Badge.pyc" "Badge.py" "AnswerRequest.pyc" "AnswerRequest.py" "AnswerContributor.pyc" "AnswerContributor.py" "Answer.pyc" "Answer.py" "__init__.pyc" "__init__.py" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/lib/" (22203 46188 0 0) "youtube.pyc" "youtube.py" "worker_monitor.pyc" "worker_monitor.py" "VisibilityLib.pyc" "VisibilityLib.py" "VideoLib.pyc" "VideoLib.py" "UserSettingLib.pyc" "UserSettingLib.py" "UserProfileLib.pyc" "UserProfileLib.py" "UserPasswordResetLib.pyc" "UserPasswordResetLib.py" "UserLib.pyc" "UserLib.py" "UserGroupLib.pyc" "UserGroupLib.py" "UserBadgeLib.pyc" "UserBadgeLib.py" "url2png.pyc" "url2png.py" "TopicLib.pyc" "TopicLib.py" "TopicLessonLib.pyc" "TopicLessonLib.py" "StreakLib.pyc" "StreakLib.py" "StatLib.pyc" "StatLib.py" "share.pyc" "share.py" "session_lib.pyc" "session_lib.py" "SeoLib.py" "seo.py" "SearchLib.pyc" "SearchLib.py" "SearchFormatterLib.pyc" "SearchFormatterLib.py" "SearchComparisonTestLib.pyc" "SearchComparisonTestLib.py" "search.pyc" "search.py" "ScratchpadLib.pyc" "ScratchpadLib.py" "resq.pyc" "resq.py" "RedisLib.pyc" "RedisLib.py" "redirect_lib/" "QuestionViewLib.pyc" "QuestionViewLib.py" "QuestionPageLib.pyc" "QuestionPageLib.py" "QuestionLib.pyc" "QuestionLib.py" "query_args.pyc" "query_args.py" "ProspectiveYoutuberLib.pyc" "ProspectiveYoutuberLib.py" "ProspectiveContributorLib.py" "ProfilePicLib.py" "PotentialQuestionLib.pyc" "PotentialQuestionLib.py" "PointLib.pyc" "PointLib.py" "PermissionLib.pyc" "PermissionLib.py" "ParagraphFeedbackLib.pyc" "ParagraphFeedbackLib.py" "NotificationsLib.pyc" "NotificationsLib.py" "ModerationLib.pyc" "ModerationLib.py" "MetadataLib.pyc" "MetadataLib.py" "MentionLib.pyc" "MentionLib.py" "MapLib.pyc" "MapLib.py" "linkify.pyc" "linkify.py" "LikeLib.pyc" "LikeLib.py" "LessonLib.pyc" "LessonLib.py" "lesson_order.py" "ip_address.pyc" "ip_address.py" "InviteLib.pyc" "InviteLib.py" "HWGeniusQuestionLib.pyc" "google_service.pyc" "google_service.py" "google_profile.pyc" "google_profile.py" "google_oauth.pyc" "google_oauth.py" "google_analytics.pyc" "google_analytics.py" "gmailer.pyc" "gmailer.py" "geo.pyc" "geo.py" "FlagLib.pyc" "FlagLib.py" "FlagAnswerLib.py" "FeaturedUserLib.pyc" "FeaturedUserLib.py" "FeaturedTopicQuestionLib.pyc" "FeaturedTopicQuestionLib.py" "feature_flags.pyc" "feature_flags.py" "facebook_auth.pyc" "facebook_auth.py" "ExperimentLib.pyc" "EventUserLib.pyc" "EventUserLib.py" "EventLib.pyc" "EventLib.py" "error_handler.pyc" "error_handler.py" "engagement_email.pyc" "engagement_email.py" "EmailNotificationsLib.pyc" "EmailNotificationsLib.py" "emailer.pyc" "emailer.py" "EdmodoLib.pyc" "EdmodoLib.py" "EditLib.pyc" "EditLib.py" "DailyStatLib.pyc" "DailyStatLib.py" "CurriculumLib.py" "curriculum.pyc" "curriculum.py" "CreateLessonPageLib.pyc" "CreateLessonPageLib.py" "CourseLib.pyc" "CourseLib.py" "CommentModerationLib.pyc" "CommentModerationLib.py" "CommentLib.pyc" "CommentLib.py" "CollectionLib.pyc" "CollectionLib.py" "ClassifyLib.pyc" "ClassifyLib.py" "cio.pyc" "cio.py" "ChapterLib.pyc" "ChapterLib.py" "cache.py" "badge_levels.pyc" "badge_levels.py" "ApiMessage.pyc" "ApiMessage.py" "AnswerRequestLib.pyc" "AnswerRequestLib.py" "AnswerModerationLib.pyc" "AnswerModerationLib.py" "AnswerLinkerLib.pyc" "AnswerLinkerLib.py" "AnswerLib.pyc" "AnswerLib.py" "AnswerContributorLib.pyc" "AnswerContributorLib.py" "analytics.pyc" "analytics.py" "ActivityFeed.pyc" "ActivityFeed.py" "__init__.pyc" "__init__.py" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/emails/" (22202 14923 0 0) "welcome.pyc" "welcome.py" "thanks.pyc" "thanks.py" "question.pyc" "question.py" "password_reset.pyc" "password_reset.py" "paragraph_feedback.pyc" "paragraph_feedback.py" "moderation.pyc" "like.pyc" "like.py" "invite.pyc" "invite.py" "great_answer.pyc" "great_answer.py" "engagement.pyc" "engagement.py" "email_addresses.pyc" "email_addresses.py" "course.pyc" "course.py" "comment.pyc" "comment.py" "badge.pyc" "badge.py" "answer.pyc" "answer.py" "activity_digest.pyc" "activity_digest.py" "__init__.pyc" "__init__.py" ".!13322!like.pyc" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/migrations/done/" (22202 41842 0 0) "weekly_topic_changes_dec_18_sb.py" "weekly_topic_changes_dec_18.csv" "verify_contractor_question_topics_2016_01_31_ld.py" "user_username_unique_index_20140122_kd.py" "user_comment_model_20150714_ae.py" "use_public_event_attribute_2015_03_03_ae.py" "update_videos_with_duration_20130916_kd.py" "update_video_view_events_20140530_kd.py" "update_users_email_address_2014_09_29_sb.py" "update_user_noimg_20140127_sb.py" "update_user_map_data_2015_06_30_sb.py" "update_thank_event_has_text_e_attr_20140926_kd.py" "update_streaks_for_everyone_2015-07-25_sb.py" "update_stats_curriculum_2014_11_24_sb.py" "update_plusgoogle_accounts_with_real_email_addresses.py" "update_curriculum_sb_20131119.py" "update_course_colors_2014_10_22_sb.py" "update_contributors_in_customerio_2014_07_02_sb.py" "update_calc_color_sb_20131113.py" "update_biology_slugs_sb_20131115.py" "update_biology_color_sb_20131115.py" "update_bad_question_slugs_20140112_sb.py" "update_answered_question_point_key_sb_20131211.py" "update_answer_indexes_20130320_sb.py" "update_answer_id_to_question_id_in_answers_sb_20131205.py" "unflag_shadow_banned_answers_2015_10_13_ld.py" "trig_curriculum_2014_09_10.tsv" "transfer_requested_courses_to_followed_courses_2015_9_30_ld.py" "train_math_classifier_2015_11_19_sb.py" "track_active_users_in_course_20150223_kd.py" "track_active_answerers_20140122_sb.py" "topic_changes_april_2014.csv" "topic_changes_2014_05_20_sb.py" "topic_changes_2014_05_20_sb.csv" "topic_changes_2014_05_06_sb.py" "statistics_curriculum_2014_11_24.tsv" "statistics_curriculum_2014_11_14.tsv" "start_tracking_trending_2014_11_04_sb.py" "split_up_orgo_20131016_kd.py" "setup_schemaorg_experiment_2015-08-17_cz.py" "setup_invite_conversion_complete_data_2014_06_02_sb.py" "setup_edmodo_indexes_2014_07_16_sb.py" "set_welcome_email_set_for_existing_contributors_20140429_sb.py" "set_welcome_email_sent_for_existing_users_20140402_sb.py" "set_user_setting_qotd_courses_20140919_kd.py" "set_topic_thumbnail_20140107_kd.py" "set_topic_id_on_feed_events_20140722_kd.py" "set_shorter_questions_url_20140112_sb.py" "set_redis_answer_ids_key_20141014_kd.py" "set_questions_short_url_20140519_kd.py" "set_question_view_location_string_20140529_kd.py" "set_question_practice_problem_20140903_kd.py" "set_question_is_real_20140917_kd.py" "set_question_is_answered_20140821_kd.py" "set_question_id_on_question_activity_feed_events_20140425_kd.py" "set_question_comment_answer_comment_type_20141007_kd.py" "set_question_answered_at_20140120_kd.py" "set_question_a_is_open_20140911_kd.py" "set_qotd_user_preferences_2014_05_14_sb.py" "set_qotd_preference_for_rayvd_2014_05_14_sb.py" "set_qotd_eligible_for_qotd_subscribers_2014_05_21_sb.py" "set_profile_picture_provided_2014_06_25_sb.py" "set_profile_map_color_2014_06_05_sb.py" "set_old_contributors_to_have_received_a_comment_email_2014_06_09_sb.py" "set_invite_code_source_20140609_01_kd.py" "set_google_picture_20131218_ae.py" "set_flag_resolved_at_and_seconds_to_resolve_20150212_kd.py" "set_feed_attrs_on_answer_thank_events_20140114_kd.py" "set_event_active_20140915_kd.py" "set_edited_profile_to_false_20140102_sb.py" "set_edited_bio_2014_06_17_sb.py" "set_display_name_20140102_sb.py" "set_default_image_20140109_kd.py" "set_default_answer_thank_count_20140110_kd.py" "set_course_types_20151116_ae.py" "set_course_launched_attribute_2015_9_30_ld.py" "set_course_id_on_flag_events_20140718_kd.py" "set_course_id_on_comment_created_events_20140718_kd.py" "set_comment_paragraph_hash_20150514_kd.py" "set_calc_topic_descriptions_20140109_kd.py" "set_bio_qotd_pref_2014_06_10_sb.py" "set_answer_thanks_course_id_20140929_kd.py" "set_answer_thank_count_on_users_20140114_kd.py" "set_answer_summary_20150615_ae.py" "set_answer_request_location_20140106_kd.py" "set_answer_request_is_real_20140918_kd.py" "set_answer_ids_for_questions_20141007_kd.py" "set_answer_id_e_attr_on_deactivated_events_20141013_kd.py" "set_answer_contributor_course_id_2015_11_06_ae.py" "set_answer_a_flag_types_20141014_kd.py" "separate_thank_comments_2016_02_03_ae.py" "send_qualified_contribs_referral_link_20140610_kd.py" "seed_questions_with_thank_count_20140213_kd.py" "seed_questions_with_recency_ts_20140213_kd.py" "seed_questions_with_last_answer_request_ts_20140213_kd.py" "seed_question_with_answered_by_20140217_kd.py" "seed_question_feeds_20141006_kd.py" "seed_answer_feeds_20141007_kd.py" "seed_activity_feed_events_2013_11_22_kd.py" "search_reset_indices_20140318.py" "science_teacher_emails_20140429.csv" "science_teacher_emails_20140421_2.csv" "science_teacher_emails_20140421_1.csv" "science_teacher_emails_20140413.csv" "science_teacher_emails_20140409_sb.tsv" "science_teacher_emails_20140328_sb.tsv" "save_invite_funnel_stats_for_last_40_days_2014_06_03_sb.py" "safe_and_watch_lists_2015-08-13_ae.py" "run_multiple_answers_migrations.sh" "resolve_deleted_answer_flags_20150314_ae.py" "reset_user_index_20150622_ep.py" "reset_user_groups_20150504_ae.py" "reset_search_indices_2014_07_01_sb.py" "reset_failed_youtube_messages_2014_07_18_sb.py" "reset_biology_yahoo_potential_questions_20150521_ae.py" "request_all_current_questions_20131213_kd.py" "reorder_user_flipping_physics_lesson_20150115_ae.py" "rename_orgo_1_2014_10_23_sb.py" "rename_mobile_test_sets_2015_12_04_ld.py" "rename_flag_state_removed_20140512_kd.py" "rename_answer_request_events_20140205_kd.py" "remove_user_jeremy-l_2014_05_15_sb.py" "remove_unused_badges_2014_11_29_sb.py" "remove_unanswered_question_events_20140514_km.py" "remove_tyler_as_admin_2014_06_16_sb.py" "remove_shadow_banned_question_from_search_20150401_ae.py" "remove_real_hw_genius_questions_2016_02_08_ld.py" "remove_probs_and_stats_questions_20150424_kd.py" "remove_old_youtube_asana_messages_20140501.py" "remove_none_user_email_2014_05_08_sb.py" "remove_internal_answer_requests_20150411_ae.py" "remove_duplicate_questions_from_es_033115_kd.py" "remove_duplicate_featured_answers.py" "remove_default_display_name_2015-07-22_cz.py" "reindex_question_model_20150410_ae.py" "reindex_point_20140818_kd.py" "reindex_models_for_speed_20140821_kd.py" "reindex_invite_code_20140609_02_kd.py" "reindex_events_20140829_kd.py" "reindex_events_20140725_kd.py" "reclassify_math_prosp_contribs_11172014_kd.py" "question_view_indexes_20150225_kd.py" "question_slug_unique_index_20140122_kd.py" "question_like_count_20140811_kd.py" "qotd_unsubscribe_generalized_2014_09_22_sb.py" "pull_bio_referral_conversion_2014_07_27_sb.py" "precalc_subtopics.tsv" "precalc_curriculum_sb_20131212.py" "precalc_curriculum.csv" "physics_overviews.csv" "orgo_titles_and_descriptions.csv" "orgo_overviews_sb_20131024.py" "orgo_overviews.csv" "no_more_generated_names_2015_11_02_ae.py" "new_subjects.csv" "new_subject_users_into_cio_2014_10_28_sb.py" "new_prelaunch_subjects_2015_10_15_ld.py" "nerf-coya-fonck_20140513_km.py" "move_short_ids_to_mongo_20150215_sb.py" "move_founders_to_usergroups_2015_10_11_ld.py" "model_slug_unique_indexes_20140126_kd.py" "migrate_user_edited_profile_to_user_setting_20140613_02_kd.py" "migrate_qotd_courses_to_qotd_user_preference_20150205_kd.py" "migrate_google_tokens_20131031_kd.py" "migrate_admins_to_usergroup_20140414_sb.py" "microeconomics_curriculum_2014_11_14.tsv" "math_teacher_emails_20140723_sb.tsv" "mark_old_edits_as_active_2014_12_01_sb.py" "make_user_uploaded_picture_absolute_20140103_kd.py" "macroeconomics_curriculum_2014_11_14.tsv" "load_youtube_video_data_20141023_kd.py" "load_science_teacher_emails_20140429_sb.py" "load_science_teacher_emails_20140421_sb.py" "load_science_teacher_emails_20140413_sb.py" "load_science_teacher_emails_20140409_sb.py" "load_science_teacher_emails_20140328_sb.py" "load_math_teacher_emails_2014_07_23_sb.py" "load_featured_questions_data_20141028_kd.py" "load_chegg_questions_20150122_kd.py" "link_owl_20140516S_km.py" "is_answered_flags_for_SB_20150610_ep.py" "initialize_veal_classifier_20150810_kd.py" "index_course_open_questions_20140916_kd.py" "hide_unanswered_bio_qs_20150715_ep.py" "give_existing_answerers_points_sb_20131209.py" "get_whale_data_for_becca_20140205_sb.py" "get_users_channel_creation_date_20131125_kd.py" "get_filepicker_urls_for_profile_pics_2014_10_30_sb.py" "generate_course_feeds_2014_07_26_sb.py" "fix_user_settings_qotd_course_data_2014_11_27_sb.py" "fix_unthanks_bug_user_points_2015_12_11_ae.py" "fix_unauthenticated_users_2015_09_28.py" "fix_question_view_long_lat_20140711_kd.py" "fix_google_image_urls_2014_10_30_sb.py" "fix_answer_id_migration_sb_20131209.py" "fill_missing_daily_stats_2016_01_17_ld.py" "fill_featured_answer_events_2016_1_12_ld.py" "event_paragraph_feedback_id_index_20150514_kd.py" "event_internal_index_and_update_20141216_kd.py" "ensure_user_indexes_20140317_km.py" "ensure_potential_question_indexes_20150610_kd.py" "ensure_event_indexes_20140603_kd.py" "ensure_edit_indexes_201411111_kd.py" "ensure_course_badges_2016_01_27_ae.py" "empty_personal_moderation_queues_2014_10_03_sb.py" "edited_teacher_thanks.csv" "earth-science_curriculum_2014_11_14.tsv" "download_and_cache_potential_az_questions_2014_11_26_sb.py" "delete_test_at_socratic_2014_07_09_sb.py" "deactivate_unmarked_great_answers_2016_01_04_ld.py" "deactivate_deleted_question_events_20140515_kd.py" "deactivate_create_update_events_for_clobbered_answers_2014_06_10_sb.py" "daily_thanks_stats_by_user_2014_09_29_sb.py" "curriculum_updates_20130318.csv" "create_user_setting_indexes_2014_05_14_sb.py" "create_trig_prob_courses_20140701_kd.py" "create_trig_curriculum_2014_09_10_sb.py" "create_socratic_meta_20140205_kd.py" "create_question_view_property_for_all_questions_20150813.py" "create_question_view_indexes_20131216_ae.py" "create_prelaunch_courses_2015_9_30_ld.py" "create_potential_questions_indexes_20150310_kd.py" "create_potential_question_keywords_20150511_kd.py" "create_november_curriculums_2014_11_13_sb.py" "create_new_course_badges_20141215_kd.py" "create_moderation_result_indexes_2014_10_01_sb.py" "create_invites_for_bio_launch_2014_07_10_sb.py" "create_indexes_user_password_reset_20140402_km.py" "create_featured_users_2014_11_19_kd.py" "create_collections_indices_20150217_sb.py" "create_calc_sb_20131113.py" "create_answer_short_id_index_20141014_kd.py" "create_answer_request_indexes_20131216_kd.py" "create_answer_question_id_thank_count_index_20141017_kd.py" "create_answer_contributors_20140123_kd.py" "create_answer_and_video_contributors_usergroups_2014_06_05_sb.py" "course_data.py" "count_user_map_views_csv_20150224_kd.py" "correct_edit_contribution_activity_stats_in_DailyStat_2015_02_19_ae.py" "contractors_topic_youtube_data/" "clear_current_flags_20140911_kd.py" "chemistry_topic_changes_20140327_sb.tsv" "chemistry_topic_changes_20140327_sb.py" "chemistry_titles_and_descriptions.csv" "chemistry_questions.csv" "chemistry_overviews.csv" "chegg_questions.csv" "channel_ids_to_remessage_2014_07_21_sb.py" "channel_ids_to_remessage_20140811_sb.py" "channel_ids_to_remessage_20140408_sb.py" "calculus_topic_changes.csv" "calculus_curriculum.csv" "calculate_daily_stat_answerer_counts_2014_06_05_sb.py" "calculate_and_send_daily_stats_2014_06_06_sb.py" "calc_descriptions.csv" "biology_overviews.csv" "biology_curriculum_updates_20131119.csv" "biology_curriculum_sb_20131115.py" "biology_curriculum.csv" "bio_topic_changes_2014_05_21_sb.tsv" "bio_topic_changes_2014_05_21_sb.py" "bio_overviews_20131204_kd.py" "backfill_unresolved_flag_count_dailystat_20150212_kd.py" "backfill_referral_stats_1_day_2014_06_18_sb.py" "backfill_new_answer_contributor_7_day_2014_06_11_sb.py" "backfill_ga_user_data_20140330_sb.py" "backfill_engaged_over_new_contributors_2014_06_25_sb.py" "backfill_engaged_7_day_new_answerers_stat_20150204_kd.py" "backfill_contribution_activity_stats_in_DailyStat_2014_06_11_sb.py" "backfill_churn_2014_06_25_sb.py" "backfill_average_secs_to_resolve_stat_20150212_kd.py" "answer_related_user_settings_20140613_01_kd.py" "algebra_topic_list_2014_09_18.tsv" "algebra_curriculum_2014_09_18_sb.py" "add_users_to_intercom_kd_100813.py" "add_users_to_elasticsearch_20150502_ae.py" "add_user_name_to_suggestions_sb_20131118.py" "add_useful_analysis_tips_as_chem_chapter_20140318_sb.py" "add_topics_to_physics_brian_swarthout_sb_20131110.py" "add_teachers_to_usergroup_contributors_20140217_sb.py" "add_stars_to_auto_nominated_user_group_2016_01_04_ld.py" "add_scratchpad_indexes_2014_08_31_sb.py" "add_relative_url_to_topics_2014_05_27_sb.py" "add_relative_url_to_topics_20140324_km.py" "add_precalc_subtopics_2014_07_05_sb.py" "add_potential_question_processed_by_based_on_question_20150610_kd.py" "add_points_for_thanks_20140225_kd.py" "add_points_for_answer_thanks_20140228_kd.py" "add_physics_founders_20140414_kd.py" "add_old_hero_comments_to_feeds_2015-07-29_cz.py" "add_location_string_to_question_view_2014_05_30_sb.py" "add_last_edited_user_id_to_questions_20140403_sb.py" "add_flag_types_to_questions_20140507_kd.py" "add_elancers_to_user_group_20140204_kd.py" "add_duplicate_question_id_index_2014_07_14_sb.py" "add_daily_stat_indexes_20140330_sb.py" "add_created_at_to_all_invite_codes_2014_05_18_sb.py" "add_course_ids_to_edits_20140418_kd.py" "add_course_ids_to_answers_20140418_kd.py" "add_course_id_to_answer_request_20140406_sb.py" "add_contributors_list_to_answers_sb_20131210.py" "add_comment_indexes_20140506_sb.py" "add_bots_to_bot_user_group_20140707_kd.py" "add_biology_yahoo_potential_questions_20150526_ae.py" "add_answer_requests_from_around_the_world_20140219_sb.py" "add_answer_requests_from_around_the_world_20140214_sb.py" "add_answer_requests_from_around_the_world_20140114_sb.py" "add_answer_last_edited_at_to_questions_20140507_kd.py" "add_admins_to_user_group_20140131_sb.py" "3_set_and_notify_user_badges_2014_09_19_sb.py" "3_assign_new_default_profile_pics_2014_12_01_sb.py" "30_more_chemistry_overviews.csv" "2_upload_default_profile_pics_to_filepicker_2014_12_01_sb.py" "2_create_course_badges_2014_09_16.py" "20150714_fix_undefined_qid_qview_cz.py" "20140228_reset_search_indices.py" "20131209_ae_fix_published_state.py" "20131205_set_user_and_answer_points.py" "20131202_update_chemistry_question_urls.py" "20131127_update_chemistry_question_slugs.py" "20131126_load_initial_chemistry_questions.py" "20131119_ae_update_dashboard_weekly_actives.py" "20131112_ae_update_dashboard_stats.py" "20131105_ae_update_daily_uniques.py" "20130925_update_all_video_snapshots_kd.py" "20130925_update_all_teacher_snapshots_sb.py" "20130924_sb_update_tylers_video_descriptions.py" "20130911_sb_updating_overview_for_physics_chapter_14.py" "20130911_sb_reindex_videos_for_elasticsearch.py" "20130909_sb_30_more_chemistry_overviews.py" "20130904_sb_update_thanks_events_for_landing_page.py" "20130904_sb_update_chemistry_titles_and_descriptions.py" "20130904_sb_load_chemistry_overviews.py" "20130902_sb_load_physics_overviews.py" "20130828_sb_update_topic_titles.py" "20130828_sb_curriculum_changes_v1.py" "20130826_sb_update_course_colors.py" "20130823_sb_topic_video_details_tsv.py" "20130811_make_chemistry_a_beta_course.py" "20130801_update_course_header_colors_sb.py" "20130801_add_course_id_to_events_sb.py" "20130801_add_avh_to_physics_sb.py" "20130730_update_course_header_colors_sb.py" "20130730_create_physics_curriculum_sb.py" "20130724_load_past_video_suggestions_sb.py" "20130717_beta_flag_to_courses_kd.py" "20130713_add_videos_to_elasticsearch.py" "20130711_kd.py" "20130710_sb.py" "20130708_kd.py" "20130701_kd.py" "20130626_kd.py" "20130618_kd_2.py" "20130618_kd.py" "20130610_sb_2.py" "20130610_sb.py" "20130609_sb.py" "20130607_kd.py" "20130605_sb.py" "20130604_sb.py" "20130604_kd.py" "20130528_kd.py" "1_set_up_counter_default_pic_indices_2014_12_01_sb.py" "1_create_badge_indexes_2014_09_22_sb.py" "04_ensure_unique_code_index_on_InviteCode_2015_05_29_sb.py" "03_dedup_all_invite_codes_2014_06_03_sb.py" "02_set_invite_code_types_2014_05_29_sb.py" "02_mark_existing_contribs_as_good_2014_05_20_sb.py" "01_migrate_welcome_email_settings_to_UserSetting_2014_05_20_sb.py" "01_delete_QuestionInviteCode_model_2014_06_03_sb.py" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/static/" (22202 28235 0 0) "styles/" "scripts/" "pdfs/" "images/" "favicon.ico" "dist/" "dev_seo/" "data/" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/static/styles/" (22202 20277 0 0) "scss/" "mobile.scss" "external/" "app.scss" ".sass-cache/" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/static/styles/scss/" (22202 20281 0 0) "mobile/" "_why.scss" "_welcome.scss" "_user_widgets.scss" "_user_videos.scss" "_user_settings.scss" "_user_profile_edit.scss" "_user_profile.scss" "_user_panel.scss" "_user_history.scss" "_user_dashboard.scss" "_url_shortener.scss" "_typography.scss" "_typeahead.scss" "_topic_no_lesson.scss" "_topic_list.scss" "_topic.scss" "_top_contributors.scss" "_teachers.scss" "_superpowers.scss" "_subject_area_buttons.scss" "_static_pages.scss" "_sitemap.scss" "_sidebar.scss" "_share.scss" "_select2.scss" "_search_results.scss" "_search_ocr.scss" "_search_comparison_page.scss" "_search.scss" "_scratchpad.scss" "_review_content.scss" "_reset.scss" "_queue_pane.scss" "_questions.scss" "_question_list_item.scss" "_question.scss" "_popovers.scss" "_password_reset.scss" "_paragraph_feedback.scss" "_pagination.scss" "_onboarding.scss" "_ocr_results_list.scss" "_ocr_result_item.scss" "_ocr_dashboard.scss" "_notifications_list.scss" "_notifications.scss" "_new_questions_tool.scss" "_new_question.scss" "_my_scratchpads.scss" "_modals.scss" "_modals/" "_messages.scss" "_mathjax_examples_table.scss" "_marketing.scss" "_markdown.scss" "_loading.scss" "_launch_hq.scss" "_labels.scss" "_jobs.scss" "_impact_map.scss" "_icons.scss" "_hw_genius_questions.scss" "_heroes.scss" "_headers.scss" "_global.scss" "_getInvolvedModal.scss" "_four_oh_four.scss" "_founder_button.scss" "_follow_course_button.scss" "_featured_user.scss" "_featured_questions.scss" "_featured_answers.scss" "_edit.scss" "_desktop_vars.scss" "_curriculum_edit.scss" "_create_or_edit_lesson.scss" "_course_talk.scss" "_course_questions.scss" "_course_page_top.scss" "_course_navigation.scss" "_course_links.scss" "_course_lessons.scss" "_course_chapters_list.scss" "_course.scss" "_contractors.scss" "_common_mixins.scss" "_comments.scss" "_colors.scss" "_collection.scss" "_buttons.scss" "_breadcrumbs.scss" "_bootstrap_tooltip.scss" "_base_typography.scss" "_base_modal.scss" "_ask_and_answer_questions_buttons.scss" "_answer_success_banners.scss" "_answer_flags.scss" "_answer_editor_bar.scss" "_answer_editor.scss" "_answer_contributions.scss" "_answer_card.scss" "_answer.scss" "_animation.scss" "_alert.scss" "_admin_user_accounting.scss" "_admin_pages.scss" "_admin_flagging_stats.scss" "_admin_courses.scss" "_add_to_collection.scss" "_activity_list.scss" "_activity_item_mixins.scss" "_about_us.scss" ".sass-cache/" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/static/styles/scss/mobile/" (22203 43078 0 0) "_why.scss" "_user_settings.scss" "_user_profile_edit.scss" "_user_profile.scss" "_user_panel.scss" "_user_history.scss" "_typography.scss" "_typeahead.scss" "_topic.scss" "_teachers.scss" "_tabs.scss" "_symbols_help.scss" "_superpowers.scss" "_static_pages.scss" "_share.scss" "_search_results.scss" "_queue_pane.scss" "_questions.scss" "_question_add.scss" "_question.scss" "_password_reset.scss" "_notifications.scss" "_navigation.scss" "_moderation.scss" "_modals.scss" "_mobile_vars.scss" "_messages.scss" "_media_queries.scss" "_launch_hq.scss" "_karma.scss" "_jobs.scss" "_impact_map.scss" "_icons.scss" "_hw_genius_cards.scss" "_heroes.scss" "_help_pages.scss" "_headers.scss" "_header_search.scss" "_great_answer.scss" "_global.scss" "_featured_answers.scss" "_event_type_moderate.scss" "_course_talk.scss" "_course_page_top.scss" "_course_links.scss" "_course.scss" "_buttons.scss" "_badges_and_levels.scss" "_answering_basics.scss" "_answer_success_banner.scss" "_answer_contributions.scss" "_answer_card.scss" "_answer.scss" "_alert.scss" "_about_us.scss" ".sass-cache/" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/templates/mobile/" (22202 20277 0 0) "why.html" "util/" "user_settings.html" "user_profile_edit.html" "user_profile.html" "user_history.html" "topic_videos.html" "topic_video.html" "topic.html" "teachers.html" "superpowers.html" "snippets/" "search_page.html" "questions_page.html" "question_page.html" "question_add.html" "password_reset_page.html" "moderation/" "modals/" "legal/" "launch_hq.html" "jobs.html" "homework_genius/" "heroes.html" "header.html" "featured_answers.html" "extra_credit.html" "empty_queue.html" "email_action_taken.html" "course_talk.html" "course_request_page.html" "course_page.html" "base.html" "answer_contributions.html" "about_us.html" "500.html" "404.html" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/templates/mobile/homework_genius/" (22203 43173 0 0) "separator_card.html" "search_the_web.html" "post_question.html" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/templates/common/util/" (22203 42671 0 0) "user.html" "topic.html" "share.html" "select_box.html" "search_list_items.html" "search_forms.html" "question.html" "pagination.html" "notifications.html" "navigation.html" "moderation.html" "links.html" "icons.html" "hero_bolt.html" "heart_widget.html" "great_answer.html" "founder.html" "flags.html" "edit.html" "course_header.html" "course_activity_feed.html" "contributors.html" "comment.html" "classification.html" "buttons.html" "breadcrumb.html" "badges.html" "answer_lock_banner.html" "answer_contributions.html" "answer.html" "activity_feed.html" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/templates/desktop/admin/" (22202 14202 0 0) "users/" "user_accounting.html" "url_shortener.html" "stats.html" "root.html" "positive_feedback_iframe.html" "ocr/" "ocer_stats.html" "new_contributors.html" "mobile_config.html" "mobile/" "hw_genius_questions.html" "flagging.html" "find_contributors.html" "curriculum_edit.html" "courses.html" "course_contributors.html" "contractors.html" "contractor_stats.html" "answer_contributors.html" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/templates/desktop/util/" (22202 12804 0 0) "video.html" "topics.html" "questions.html" "onboarding.html" "banners.html" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/tests/" (22200 63935 0 0) "welcome_email_test.pyc" "welcome_email_test.py" "visibility_lib_tests.pyc" "visibility_lib_tests.py" "video_model_test.pyc" "video_model_test.py" "user_setting_model_test.pyc" "user_setting_model_test.py" "user_password_reset_model_test.pyc" "user_password_reset_model_test.py" "user_model_test.pyc" "user_model_test.py" "user_lib_tests.pyc" "user_lib_tests.py" "user_group_model_tests.pyc" "user_group_model_tests.py" "user_badge_lib_test.pyc" "user_badge_lib_test.py" "user_activity_feed_test.pyc" "user_activity_feed_test.py" "unsubscribe_util_test.pyc" "unsubscribe_util_test.py" "topic_model_test.pyc" "topic_model_test.py" "topic_lib_test.pyc" "topic_lib_test.py" "timestamp_util_test.pyc" "timestamp_util_test.py" "test_base.pyc" "test_base.py" "streak_model_test.pyc" "streak_model_test.py" "stat_model_test.pyc" "stat_model_test.py" "social_sharing_test.pyc" "social_sharing_test.py" "search_v2_test.pyc" "search_v2_test.py" "request_hook_test.pyc" "request_hook_test.py" "redirect_model_test.pyc" "redirect_model_test.py" "question_view_model_test.pyc" "question_view_model_test.py" "question_model_test.pyc" "question_model_test.py" "question_lib_test.pyc" "question_lib_test.py" "prospective_contributor_test.pyc" "prospective_contributor_test.py" "prelaunch_course_test.pyc" "prelaunch_course_test.py" "paragraph_feedback_test.pyc" "paragraph_feedback_test.py" "notifications_test.pyc" "notifications_test.py" "moderation_test.pyc" "moderation_test.py" "mock_resq.pyc" "mock_resq.py" "mock_database_tests.pyc" "mock_database_tests.py" "mock_cio.pyc" "mock_cio.py" "markdown_test.pyc" "markdown_test.py" "like_lib_test.pyc" "like_lib_test.py" "lesson_model_test.pyc" "lesson_model_test.py" "invite_lib_test.pyc" "invite_lib_test.py" "formatters_test.pyc" "formatters_test.py" "flag_model_test.pyc" "flag_model_test.py" "fixtures.pyc" "fixtures.py" "feed_model_test.pyc" "feed_model_test.py" "featured_topic_question_test.pyc" "featured_topic_question_test.py" "featured_answer_test.pyc" "featured_answer_test.py" "factory.pyc" "factory.py" "event_model_test.pyc" "event_model_test.py" "engagement_email_test.pyc" "engagement_email_test.py" "edmodo_model_test.pyc" "edmodo_model_test.py" "csrf_test.pyc" "csrf_test.py" "course_model_test.pyc" "course_model_test.py" "course_lib_test.pyc" "course_lib_test.py" "course_activity_test.pyc" "course_activity_test.py" "content_review_test.pyc" "content_review_test.py" "comment_lib_test.pyc" "comment_lib_test.py" "classify_lib_test.pyc" "classify_lib_test.py" "chapter_model_test.pyc" "chapter_model_test.py" "chapter_lib_test.pyc" "chapter_lib_test.py" "bot_test.pyc" "bot_test.py" "base_mixin_test.pyc" "base_mixin_test.py" "auth_test.pyc" "auth_test.py" "app_test.pyc" "app_test.py" "answer_thanks_email_test.pyc" "answer_thanks_email_test.py" "answer_request_test.pyc" "answer_request_test.py" "answer_model_test.pyc" "answer_model_test.py" "answer_linker_lib_test.pyc" "answer_linker_lib_test.py" "answer_lib_test.pyc" "answer_lib_test.py" "answer_contributor_lib_test.pyc" "answer_contributor_lib_test.py" "analytics_test.pyc" "analytics_test.py" "activity_digest_test.pyc" "activity_digest_test.py" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/ignored_files/mobile/" (22198 35044 0 0) "week.csv" "topics.csv" "topic_analysis.py" "search_web_formatted.csv" "search_web_formatated" "search_web2_formatted.csv" "search_web2.csv" "search_web.py" "search_web.csv" "search.py" "results_analysis.py" "recent.csv" "reader_error.py" "questions.csv" "predict_topics.py" "mobile_math.py" "khan.py" "ignored_phrases.go" "highlight/" "google_math_results.pyc" "google_math_results.py" "google_math.py" "download_questions.py" "dictservice.py" "ck12.py" "Chemistry.csv" "answers.py" "answers.pkl" "analysis.csv" ".~lock.search_web2.csv#" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/static/scripts/common/views/" (22200 60948 0 0) "why.js" "user-settings.js" "user-reactivation-request.js" "user-profile-tabs.js" "user-panel.js" "user-note.js" "user-history.js" "unlocked-badges-modal.js" "topic-select-box.js" "thank-buttons.js" "text-input.js" "teachers-page.js" "subject-area-buttons.js" "similar-questions-list.js" "share.js" "search-box.js" "request-button.js" "related-questions.js" "queue-pane.js" "question-search-box.js" "question-editor-box.js" "question-details-editor.js" "profile-picture-picker.js" "password-reset.js" "mentions.js" "markdown-editor-link-adder.js" "logout-button.js" "login.js" "login-email-button.js" "launch-hq.js" "jobs-page.js" "impact-map.js" "great-answer-button.js" "forgot-password-link.js" "forgot-password-button.js" "follow-course-button.js" "featured-answers.js" "faq-list.js" "editor.js" "edit-question.js" "deferred-image-manager.js" "course-top.js" "course-talk.js" "course-select-box.js" "conversation.js" "comment-form.js" "become-founder-modal.js" "base-answer-success-banner.js" "applied-founder-modal.js" "answer-thanks-button.js" "answer-request.js" "answer-flags-to-resolve.js" "answer-contributions.js" "alert.js" "alert-banner.js" "add-to-collection.js" "activity-list.js" "_select2-box.js" "_modal.js" "_base-like-button.js" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/static/scripts/common/helpers/" (22202 2794 0 0) "highcharts.js" "helpers.js" "google-oauth.js" "facebook-auth.js" "base-service-oauth.js" "analytics.js" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/templates/mobile/snippets/" (22200 60948 0 0) "video_list_item.html" "video.html" "user_classification_pane.html" "top_lesson_video_item.html" "question_list.html" "no_lessons.html" "moderation_history_list.html" "header_body.html" "expanded_navigation.html" "breadcrumb_topic.html" "answer_success_banner.html" "answer_review_pane.html" "answer_moderation_pane.html" "answer_edit_and_preview.html" "answer.html" "abuse_moderation_pane.html" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/static/scripts/desktop/views/" (22200 60948 0 0) "youtube-video-player.js" "welcome-page.js" "video.js" "user-profile.js" "user-profile-edit.js" "user-dashboard-page.js" "user-contributions-graph.js" "unanswered-question-page.js" "topic-videos-page.js" "topic-questions.js" "topic-page-with-question.js" "topic-description-editor.js" "symbol-help-modal.js" "suggest-lessons-button.js" "suggest-lesson.js" "sign-in-popover.js" "share-popup.js" "searchable-questions-list.js" "search-page.js" "search-list.js" "search-list-item.js" "scratchpad.js" "rotating-items.js" "review-topics-page.js" "questions-page.js" "question-list.js" "profile-picture-picker.js" "password-form.js" "paragraph-feedback/" "onboarding-popover.js" "notifications.js" "new-questions-tool.js" "new-questions-tool-course-page.js" "mixpanel-graph.js" "mathjax-help.js" "mark-as-duplicate-modal.js" "map.js" "login.js" "lesson.js" "highchart-graph.js" "header.js" "growth-prompt.js" "great-answer.js" "graph-help-modal.js" "google-login-button.js" "flag.js" "fix-topics-page.js" "find-contributors.js" "feedback.js" "facebook-login-button.js" "duplicate-question-page.js" "curriculum-edit.js" "create-or-edit-lesson.js" "create-lesson-button.js" "course.js" "course-topics.js" "course-preferences-modal.js" "contributors-popup.js" "ask-question-modal.js" "ask-question-button.js" "ask-and-answer-questions.js" "answered-question-page.js" "answer-view.js" "answer-success-banner.js" "answer-flags.js" "answer-feedback.js" "answer-editor.js" "admin_user_group.js" "admin_stats.js" "admin_ocer_stats.js" "admin_courses.js" "admin-url-shortener-page.js" "admin-ocr-search-page.js" "admin-ocr-search-comparison-tool.js" "admin-ocr-results-list.js" "admin-ocr-dashboard.js" "admin-mobile-stats.js" "admin-flagging-view.js" "_question-page.js" "_admin-ocr-result-item.js" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/templates/common/static_pages/" (22200 60948 0 0) "symbols_help.html" "principles.html" "karma_page.html" "jobs.html" "how_to_be.html" "homework_genius.html" "heroes.html" "great_answer.html" "base_static_page.html" "badges_and_levels.html" "asking_basics.html" "answering_basics.html" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/static/scripts/desktop/" (22200 60948 0 0) "views/" "util/" "router.js" "data/" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/migrations/" (22200 63383 0 0) "done/" "__init__.pyc" "__init__.py" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/static/scripts/common/models/" (22200 60948 0 0) "video.js" "user.js" "topic.js" "search_results.js" "scratchpad.js" "question.js" "question-search-manager.js" "potential-question-keyword.js" "moderation.js" "lesson.js" "flag.js" "event.js" "course.js" "comment.js" "collection.js" "chapter.js" "answer.js" "../" "./")
+
+ ("/Users/lilidworkin/Dropbox/ACTTION/content/" (22200 819 0 0) "workinggroups.html" "static/" "rremit.html" "rreads.html" "rreact.html" "publications.html" "partners.html" "paac.html" "otherpartners.html~" "organization.html" "newsletter2.html" "newsletter.html~" "newsletter.html" "newsletter-update.html" "news/" "home.html~" "home.html" "contact_us.html" "consortia_collaborations.html" "committee.html" "cares.html" "alertt.html" "advisors.html" "adept11_agenda.html" "adept11.html" "acttion14_transcript2.pdf" "acttion14_transcript1.pdf" "acttion14_agenda.pdf" "acttion14.html" "acttion12_agenda.html" "acttion12.html" "action11_agenda.html" "action11.html" "aapt.html" ".hyde_deps" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/templates/common/" (22200 60948 0 0) "util/" "user_settings.html" "user_history.html" "typekit.html" "suspension.html" "static_pages/" "snippets/" "sentry.html" "notifications.html" "new_relic_browser.html" "modals/" "mathjax_config.html" "legal/" "google_analytics.html" "email_action_taken.html" "edmodo/" "deactivated_account.html" "csrf_protection.html" "course_request_page.html" "conversation.html" "close_window.html" "baseModal.html" "base_html_vars.html" "base_html_meta_tags.html" "app_init.html" "analytics.html" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/templates/desktop/" (22200 60948 0 0) "why.html" "welcome.html" "util/" "user_settings.html" "user_profile_edit.html" "user_profile.html" "user_history.html" "user_dashboard.html" "topic_videos.html" "topic.html" "teachers.html" "superpowers.html" "snippets/" "sitemap/" "search_page.html" "search_comparison_test_page.html" "scratchpads.html" "scratchpad_edit.html" "scratchpad.html" "questions_page.html" "question_page.html" "password_reset_page.html" "moderation/" "modals/" "lesson_guidelines.html" "legal/" "launch_hq.html" "jobs.html" "heroes.html" "header.html" "footer.html" "featured_answers.html" "faq.html" "extra_credit.html" "empty_queue.html" "email_action_taken.html" "duplicate_question_page.html" "create_or_edit_lesson.html" "course_topics.html" "course_talk.html" "course_request_page.html" "course_page.html" "course_base.html" "contractor/" "content/" "collection.html" "baseModal.html" "base.html" "answer_contributions.html" "admin/" "about_us.html" "500.html" "404.html" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/static/scripts/mobile/views/" (22202 6950 0 0) "user-profile-page.js" "user-profile-edit.js" "topic-videos-page.js" "topic-page.js" "share-modal.js" "search-page.js" "questions-page.js" "question-page.js" "navigation.js" "moderation-history.js" "moderate.js" "moderate-event-type.js" "hw-genius-post-question.js" "header.js" "header-search-bar.js" "flag-answer.js" "course.js" "contributor-modal.js" "classify-user-button.js" "answer-view.js" "answer-preview.js" "answer-editor.js" "answer-edit-and-preview.js" "answer-actions.js" "add-question-page.js" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/util/" (22200 60952 0 0) "vlog.pyc" "vlog.py" "veal/" "unsubscribe.pyc" "unsubscribe.py" "timestamp.pyc" "timestamp.py" "timer.pyc" "timer.py" "stopwords.pyc" "stopwords.py" "statistics.py" "slugify.pyc" "slugify.py" "short_id.pyc" "short_id.py" "regex.pyc" "regex.py" "redirect_lib.pyc" "redirect_lib.py" "random_util.pyc" "random_util.py" "password.pyc" "password.py" "pagination.pyc" "pagination.py" "mobile.pyc" "mobile.py" "metadata/" "math_helper.pyc" "math_helper.py" "markdown_util.pyc" "markdown_util.py" "markdown_filter.pyc" "markdown_filter.py" "jinja_tests.pyc" "jinja_tests.py" "jinja_globals.pyc" "jinja_globals.py" "jinja_filters.pyc" "jinja_filters.py" "jinja_context.pyc" "jinja_context.py" "hash.pyc" "hash.py" "formatter.pyc" "formatter.py" "exceptions.pyc" "exceptions.py" "display_name.pyc" "display_name.py" "csv_helper.py" "course_concepts/" "cookies.pyc" "cookies.py" "common_words.pyc" "common_words.py" "classify/" "bot.pyc" "bot.py" "bad_words.pyc" "bad_words.py" "b64.pyc" "b64.py" "b62.pyc" "b62.py" "aes.pyc" "aes.py" "__init__.pyc" "__init__.py" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/static/scripts/mobile/" (22200 63644 0 0) "views/" "main.js" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/" (22200 61334 0 0) "youtube_messages/" "util/" "unencrypted_settings.pyc" "unencrypted_settings.py" "tests/" "templates/" "static_files.pyc" "static_files.py" "slack/" "settings/" "newrelic.ini" "model/" "MNIST_data/" "migrations/" "lib/" "handlers_v2/" "handlers/" "external/" "emails/" "data/" "bin/" "app.pyc" "app.py" ".DS_Store" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/static/" (22159 57362 0 0) "scripts/" "build/" "../" "./")
+
+ ("/Users/lilidworkin/Dropbox/ACTTION/" (21681 43059 0 0) "site.yaml" "README.markdown" "layout/" "info.yaml" "deploy/" "content/" ".hyde_deps" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/lib/redirect_lib/" (21999 774 0 0) "VideoRedirect.pyc" "VideoRedirect.py" "TopicRedirect.pyc" "TopicRedirect.py" "QuestionRedirect.py" "ChapterRedirect.pyc" "ChapterRedirect.py" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/static/scripts/common/data/" (22196 51071 0 0) "text-assets.js" "bad-words.js" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/templates/common/snippets/" (22194 31673 0 0) "user_profile_videos.html" "user_panel.html" "user_notes_list.html" "user_history_list.html" "topic_request_button.html" "related_questions_list.html" "question_activity_feed.html" "mentions.html" "mathjax_symbols_examples.html" "good_answer_tips.html" "flagged_answer_tips.html" "featured_questions.html" "featured_answers.html" "course_activity_feed_item.html" "course_activity_feed.html" "contributors_list.html" "answer_editor_flags.html" "answer_contribution_list.html" "answer_box.html" "alert.html" "activity_feed_item.html" "activity_feed_comment.html" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/data/" (22194 6109 0 0) "video.py" "user.py" "topic.py" "thanks_notes.pyc" "thanks_notes.py" "testimonials.pyc" "testimonials.py" "team_profiles.pyc" "team_profiles.py" "seo.py" "reset_all_data.py" "question_view.py" "question.py" "question-db.json" "quantcast/" "process_papertrail_logs.sh" "prelaunch_faq.pyc" "prelaunch_faq.py" "invite.py" "hw_genius.pyc" "hw_genius.py" "get_question_data_for_growth.py" "get_mod_data.py" "get_churned_stars.py" "get_cake_day_data.py" "get_answers_for_quality_review.py" "GeoLiteCity.dat" "edmodo.py" "edit.py" "deleteAllMongo.js" "create_dev_data.py" "crawler_stats.py" "community_profiles.pyc" "community_profiles.py" "community_health.py" "common_words.pyc" "board_deck.py" "answer_quality.py" "answer_contributor.py" "answer.py" "answer-db.json" "__init__.pyc" "__init__.py" "38de24795a7638863f176e88b9251ee4bf17a025-privatekey.p12" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/templates/desktop/content/" (22191 56766 0 0) "topic_review.html" "topic_fix.html" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/ignored_files/" (22193 4598 0 0) "web/" "rankings/" "ocrability/" "mturk/" "mobile/" "keys.sh" "imgprocess/" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/.emacs.d/" (22189 8546 0 0) "request/" "matlab-emacs/" "jshint-mode/" "ido.last" "files/" "elpa/" "backups/" "autosaves/" "auto-save-list/" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/.emacs.d/jshint-mode/" (22189 8332 0 0) "README.markdown" "package.json" "node_modules/" "LICENSE" "jslint.js" "jshint.js" "jshint-mode.js" "jshint-mode-pkg.el" "jshint-emacs.js" "flymake-jshint.el" "example.png" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/" (22186 19257 0 0) "Socratic-iOS/" "seshat/" "graph.zip" "graph/" "data.json" "atomdev/" "atom/" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/static/scripts/common/" (22187 47783 0 0) "views/" "util/" "models/" "mixins/" "helpers/" "data/" "base-router.js" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/static/scripts/external/" (22075 45016 0 0) "underscore.js" "underscore-min.map" "typekit.js" "typeahead.js" "select2.min.js" "select2.js" "moment.min.js" "MathJax/" "Markdown.Sanitizer.js" "Markdown.Editor.js" "Markdown.Converter.js" "jsoneditor.min.js" "json2.min.js" "jQueryRotate.js" "jquery.pretty-text-diff.min.js" "jquery.mobile.custom.js" "jquery.cookie.js" "jquery-1.9.0.js" "highcharts/" "filepicker.js" "diff_match_patch.js" "desmos-copy.js" "d3/" "bootstrap-tooltip.js" "bootstrap-popover.js" "bootstrap-modal.js" "bootstrap-extensions-2ffc7498a56746a6c05c965e6f9cb4ea.min.js" "bootstrap-dropdown.js" "bootstrap-carousel.js" "bootstrap-alert.js" "backbone.js" "backbone-min.map" "ASCIIMathTeXImg.js" "amplitude-2.0.4.js" "57331c03.external.min.js" ".DS_Store" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/util/" (22182 15633 0 0) "url.go" "time.go" "sentry.go" "panic_recovery.go" "mobile_optimized.go" "math.go" "log.go" "ignored_words.go" "http.go" "formatting.go" "encoding_test.go" "common_words.go" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/templates/desktop/snippets/" (22183 39886 0 0) "video_suggestion.html" "video.html" "user_widget.html" "user_classification_pane.html" "user_activity_feed.html" "trending_questions_list.html" "topic_contributions.html" "questions.html" "question_quality_popover.html" "question_page_sidebar.html" "question_page_body.html" "question_list.html" "question.html" "post_answer_prompt.html" "paragraph_feedback_comments.html" "ocr_result.html" "notifications_popup.html" "notifications_list.html" "no_lesson.html" "loading.html" "lesson_list_item.html" "inactive_streak_info.html" "growth_prompts.html" "flag.html" "featured_user.html" "create_lesson_video_in_lesson.html" "create_lesson_video.html" "course_navigation.html" "course_keywords_list.html" "course_flag_types_list.html" "course_chapters_list.html" "contributors_popup.html" "contribution_split.html" "collections_list.html" "breadcrumb_topic.html" "ask_and_answer_questions_buttons.html" "answer_thanks_note.html" "answer_review_pane.html" "answer_paragraph_feedback_popover.html" "answer_moderation_pane.html" "answer_flags.html" "answer_editor.html" "answer.html" "add_to_collection.html" "add_link_typeahead_result.html" "active_streak_info.html" "abuse_moderation_pane.html" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/templates/desktop/admin/ocr/" (22186 38022 0 0) "search_comparison_tool.html" "search.html" "root.html" "ocr_results_list.html" "metadata_templates.html" "metadata_links.html" "dashboard.html" "../" "./")
+
+ ("/Users/lilidworkin/Desktop/" (22187 26835 0 0) "Younger - Season 1 [HDTV] [x264] - cOOt/" "tv shows.txt" "Tangled (2010) [1080p] {5.1}/" "Screen Shot 2016-01-29 at 8.27.43 AM.png" "rootkey.csv" "lili.pem" "invoice.doc" "expenses.ods" "annoyances.txt" "54.175.151.59.rdp" "52.34.26.17.rdp" ".localized" ".DS_Store" ".#pin.py" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/util/classify/" (22185 15648 0 0) "math_data.pyc" "math_data.py" "math.pyc" "math.py" "chemistry.pyc" "chemistry.py" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/external/" (22182 16402 0 0) "yahoo_answers.pyc" "yahoo_answers.py" "slack.pyc" "slack.py" "papertrail.pyc" "papertrail.py" "mixpanel_api_lib.pyc" "mixpanel_api_lib.py" "intercom_lib.pyc" "intercom_lib.py" "google_vision.pyc" "google_vision.py" "google_suggest.pyc" "google_suggest.py" "filepicker.pyc" "filepicker.py" "edmodo.pyc" "edmodo.py" "diff_match_patch.pyc" "diff_match_patch.py" "cio.pyc" "cio.py" "bing_api.pyc" "bing_api.py" "asana.pyc" "asana.py" "analytics_lib.pyc" "analytics_lib.py" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/ignored_files/web/" (22183 62080 0 0) "social_sharing.py" "slow_question_pages.py" "slow_course_pages.py" "shadow_banned_answers.py" "question_map.py" "ppf.py" "object_info.py" "location_data.py" "hw_genius.py" "hackathon.py" "freeform_courses.py" "contrib_split.py" "add_to_feeds.py" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/templates/desktop/contractor/" (22186 53878 0 0) "root.html" "keywords.html" "keyword.html" "hw_genius.html" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/static/scripts/common/util/" (22186 32217 0 0) "uri.js" "underscore-templates.js" "render_queue.js" "player.js" "mathjax.js" "markdown.js" "local-storage.js" "api.js" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/" (22184 55569 0 0) "static/" "server/" "requirements.txt" "README.md" "Procfile" "package.json" "node_modules/" "init/" "ignored_files/" "Gruntfile.js" "githooks/" "Gemfile.lock" "Gemfile" "dump.rdb" "cron/" "config/" "Capfile" "bin/" "_debug_toolbar/" ".sass-cache/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/bin/" (22177 5654 0 0) "worker_monitor.py" "worker.py" "update_user_map_data.py" "update_trending.py" "update_sitemap_if_scheduled.py" "update_sitemap.py" "update_curriculum_from_csv.py" "track_daily_contribution_stats.py" "send_retention_email.py" "send_email_after_deploy.py" "send_daily_stats_email.py" "send_activity_digest_emails.py" "scheduler.py" "reset_dev_set_start_oid.py" "resend_email_invites.py" "request_questions.py" "generate_youtube_teacher_messages.py" "generate_email_invites.py" "find_and_create_youtube_teachers.py" "engagement_email.py" "download_yesterdays_google_analytics_user_data.py" "cron_example.py" "create_hw_genius_potential_questions.py" "calculate_daily_stats.py" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/util/metadata/" (22171 55676 0 0) "tfidf.pyc" "tfidf.py" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/socratic/" (22171 56563 0 0) "web_searches.csv" "web_search_results.csv" "ocr_results.csv" "images.csv" "ignore.txt" "golang/" "go/" "dump.sql" "devices.csv" "definitions.py" "daily_stats.csv" "clustering.py" "active_devices.csv" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/config/" (22176 263 0 0) "schedule.rb" "deploy.rb" "deploy/" "compass.rb" "compass-prod.rb" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/templates/mobile/moderation/" (22071 32328 0 0) "moderation_history.html" "event_type_moderation_shell.html" "event_type_moderation_list.html" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/templates/" (22071 28904 0 0) "mobile/" "dist/" "desktop/" "common/" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/init/api/" (22075 45016 0 0) "atom.conf" "atom-worker.conf" "atom-worker-3.conf" "atom-worker-2.conf" "atom-worker-1.conf" "atom-scheduler.conf" "atom-scheduler-1.conf" "atom-app.conf" "atom-app-1.conf" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/init/" (21998 63197 0 0) "sandbox/" "nginx/" "apps/" "api/" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/cron/" (22159 58102 0 0) "web2.socratic.org" "web1.socratic.org" "sandboxinternal.socratic.org" "nginx2.socratic.org" "betainternal.socratic.org" "apps3.socratic.org" "alphainternal.socratic.org" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/config/deploy/" (22159 58102 0 0) "sandbox.rb" "production.rb" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atomdev/puppet/modules/elasticsearch/manifests/" (21998 63101 0 0) "template.pp" "service.pp" "service/" "ruby.pp" "python.pp" "plugin.pp" "params.pp" "package.pp" "java.pp" "init.pp" "config.pp" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atomdev/puppet/modules/elasticsearch/" (21998 63101 0 0) "templates/" "spec/" "README.md" "Rakefile" "Modulefile" "manifests/" "LICENSE" "Gemfile" "CONTRIBUTORS" "CONTRIBUTING.md" "CHANGELOG" ".travis.yml" ".gitignore" ".fixtures.yml" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atomdev/puppet/modules/" (21999 644 0 0) "wget/" "veal_dev/" "veal/" "tesseract/" "stdlib/" "resweb/" "remote_syslog/" "redis_prod/" "redis_dev/" "redis/" "postgresql/" "postgres_dev/" "phantomjs/" "ntp/" "nginx_staging/" "nginx_prod/" "nginx/" "mongodb/" "mongo_prod/" "mongo_dump_loader/" "mongo_backup/" "golang/" "gcc/" "elasticsearch_prod/" "elasticsearch/" "dev_vm/" "concat/" "bash_profile/" "base/" "atom_dev/" "apt/" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atomdev/puppet/" (21998 63101 0 0) "modules/" "manifests/" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atomdev/" (22017 45062 0 0) "Vagrantfile" "upgrade_puppet.sh" "setup_dev_env.sh" "README.md" "puppet/" "Gemfile" "fixtures/" "config/" "Capfile" ".vagrant/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/leptonica/" (22168 5065 0 0) "test_images/" "rotate_test.go" "rotate.go" "pix.go" "orientation.go" "leptonica_test.go" "leptonica.go" "_obj/" ".DS_Store" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/ocr/" (22169 4114 0 0) "test_images/" "tesseract_test.go" "tesseract.go" "save_to_disk.go" "s3.go" "ocr_source.go" "main.go" "google_vision_test.go" "google_vision.go" "crop.go" "a9t9_test.go" "a9t9.go" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/Dropbox/ACTTION/deploy/" (22171 55183 0 0) "workinggroups.html" "static/" "rremit.html" "rreads.html" "rreact.html" "publications.html" "partners.html" "paac.html" "otherpartners.html" "organization.html" "newsletter2.html" "newsletter.html" "newsletter-update.html" "news/" "home.html" "contact_us.html" "consortia_collaborations.html" "committee.html" "cares.html" "alertt.html" "advisors.html" "adept11_agenda.html" "adept11.html" "acttion14_transcript2.pdf" "acttion14_transcript1.pdf" "acttion14_agenda.pdf" "acttion14.html" "acttion12_agenda.html" "acttion12.html" "action11_agenda.html" "action11.html" "aapt.html" ".hyde_deps" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/Dropbox/ACTTION/content/news/" (22171 54299 0 0) "9_3_14.html" "9_30_14.html" "9_30_11.html" "9_29_14.html" "9_25_12.html" "9_21_15.html" "9_20_12.html" "9_16_11.html" "8_7_12.html" "8_31_11.html" "8_1_12.html" "7_9_12.html" "7_8_11.html" "7_31_12.html" "7_29_11.html" "7_24_13.html~" "7_24_13.html" "7_19_13.html~" "7_19_13.html" "7_18_11.html" "6_6_12.html" "6_4_15.html" "6_29_11.html" "6_26_15.html" "6_17_15.html" "6_15_11.html" "6_11_12.html" "5_5_14.html" "5_30_11.html" "5_22_14.html" "5_20_14.html" "4_6_15.html" "4_27_15.html" "4_24_13.html" "4_23_12.html" "4_1_15.html" "4_18_13.html" "4_17_13.html" "4_16_12.html" "3_7_13.html" "3_5_13.html" "3_20_15.html" "3_1_13.html" "3_1_12.html" "3_15_12.html" "3_13_15.html" "3_10_12.html" "2_5_14.html" "2_22_12.html" "1_3_12.html" "1_22b_15.html" "1_22a_15.html" "1_10_14.html" "12_30_14.html" "12_2_14.html" "12_26_12.html" "12_21_11.html" "12_1_13.html" "12_17_15.html" "12_10_12.html" "11_4_13.html~" "11_4_13.html" "11_30_15.html" "11_29_13.html" "11_26_13.html~" "11_26_13.html" "11_20_12.html" "11_17_11.html" "11_10_15.html" "10_5_12.html" "10_24_12.html" "10_24_11.html" "10_23_13.html~" "10_23_13.html" "10_17_14.html" "10_11_12.html" "10_10_12.html" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/static/data/geo/" (21998 63198 0 0) "landtopo.json" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/static/data/" (21998 63198 0 0) "geo/" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/util/veal/models/" (22000 28177 0 0) "Word.pyc" "Word.py" "TrainingText.pyc" "TrainingText.py" "Base.pyc" "Base.py" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/util/veal/" (22000 28177 0 0) "word_lists/" "veal_util.pyc" "veal_util.py" "requirements.txt" "README.md" "models/" "migrations/" "DatabaseDelegate.pyc" "DatabaseDelegate.py" "data/" "config.pyc" "config.py" "Classifier.pyc" "Classifier.py" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/" (21676 6498 0 0) "Shared/" "lilidworkin/" ".localized" "../" "./")
+
+ ("/Users/lilidworkin/Dropbox/ACTTION/layout/" (22161 32510 0 0) "base.j2~" "base.j2" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/server/settings/" (22159 58103 0 0) "README.md" "keys/" "encrypted_settings.json" "encrypt_json_file.py" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/lilidworkin/my-socratic/atom/static/styles/scss/_modals/" (22159 58103 0 0) "_markdown_link_adder.scss" "_mark_as_duplicate_modal.scss" "_how_to_add_symbols_modal.scss" "_how_to_add_graph_modal.scss" "_course_preferences_modal.scss" "_become_founder_modal.scss" "_ask_question_modal.scss" "_applied_founder_modal.scss" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/config/" (22159 57362 0 0) "s3.rb" "deploy.rb" "deploy/" "../" "./")
+
+ ("/Users/lilidworkin/Dropbox/Personal/Code/matasano/" (22153 27373 0 0) "set2.py" "set1.py" "8.txt" "7.txt" "6.txt" "4.txt" "10.txt" "../" "./")
+
+ ("/socratic/golang/src/github.com/socraticorg/apiv2/templates/" (22138 51785 0 0) "reader/" "../" "./")
+
+ ("/Users/lilidworkin/Dropbox/" (22140 39479 0 0) "Trading/" "SPECTRUM (1)/" "Spectrum/" "Research/" "Rankings/" "Personal/" "Penn/" "networked_life/" "MSR/" "MLTrading/" "LongRunPD/" "IMMPACT/" "Icon
+" "ContagionExperiments/" "Collective Memorization/" "BehavioralExp/" "ATT/" "ACTTION/" "1Password/" ".ws.agile.1Password.settings" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
+
+ ("/Users/lilidworkin/Dropbox/Personal/" (22116 60578 0 0) "SF Blog/" "School/" "resume-industry2/" "resume-industry/" "resume/" "Pictures/" "Old/" "Logos/" "Jobs/" "Interviews/" "Github/" "Gimp/" "FasterTimes/" "debatably/" "Codecademy/" "Code/" "Apartments/" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/Dropbox/Personal/Code/" (22151 24193 0 0) "tv.py" "tutorial-generator/" "turnin/" "stockfighter/" "source_syncing/" "quotes/" "quoteboard/" "portfolio/" "oldprojects/" "matasano/" "lilianne/" "interviews/" "IMMPACT/" "GraphColoring/" "euler/" "desugar/" "c/" ".DS_Store" "../" "./")
+
+ ("/Users/lilidworkin/Dropbox/Personal/Code/stockfighter/" (22151 24827 0 0) "stockfighter.py" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

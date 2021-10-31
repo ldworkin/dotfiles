@@ -2,5 +2,3 @@
 .emacs.d/autosaves/
 .emacs.d/backups/
 .emacs.d/archives/
-.emacs.d/ido.last
-custom.zsh
